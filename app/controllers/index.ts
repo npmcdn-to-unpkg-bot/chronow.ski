@@ -1,4 +1,4 @@
-import { Component } from 'angular2/core';
+import { Component, OnInit } from 'angular2/core';
 import {FooterComponent} from './footer';
 
 @Component({
@@ -9,4 +9,9 @@ import {FooterComponent} from './footer';
 
 export class IndexComponent {
   public title: string = 'Chronow.ski'
+
+  playName() {
+    var audio = new Audio('/assets/jakub.ogg');
+    audio.play();
+  }
 }

@@ -25,6 +25,10 @@ System.register(['angular2/core', './footer'], function(exports_1, context_1) {
                 function IndexComponent() {
                     this.title = 'Chronow.ski';
                 }
+                IndexComponent.prototype.playName = function () {
+                    var audio = new Audio('/assets/jakub.ogg');
+                    audio.play();
+                };
                 IndexComponent = __decorate([
                     core_1.Component({
                         selector: 'app',
