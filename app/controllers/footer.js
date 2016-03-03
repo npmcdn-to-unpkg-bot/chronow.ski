@@ -1,4 +1,4 @@
-System.register(['angular2/core', './footer'], function(exports_1, context_1) {
+System.register(['angular2/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,33 +10,35 @@ System.register(['angular2/core', './footer'], function(exports_1, context_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, footer_1;
-    var IndexComponent;
+    var core_1;
+    var FooterComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
-            },
-            function (footer_1_1) {
-                footer_1 = footer_1_1;
             }],
         execute: function() {
-            IndexComponent = (function () {
-                function IndexComponent() {
-                    this.title = 'Chronow.ski';
+            FooterComponent = (function () {
+                function FooterComponent() {
+                    this.sociallinks = [
+                        { "name": "Facebook", "icon": "facebook", "url": "https://facebook.com/kuba77" },
+                        { "name": "LinkedIn", "icon": "linkedin", "url": "https://linkedin.com/pub/jakub-chronowski/109/80a/810" },
+                        { "name": "Twitter", "icon": "twitter", "url": "https://twitter.com/jakubchronowski" },
+                        { "name": "Instagram", "icon": "instagram", "url": "https://instagram.com/19kuba22" },
+                        { "name": "GitHub", "icon": "github", "url": "https://github.com/Kuba77" },
+                    ];
                 }
-                IndexComponent = __decorate([
+                FooterComponent = __decorate([
                     core_1.Component({
-                        selector: 'app',
-                        templateUrl: '/app/templates/index.html',
-                        directives: [footer_1.FooterComponent]
+                        selector: 'app-footer',
+                        templateUrl: '/app/templates/footer.html',
                     }), 
                     __metadata('design:paramtypes', [])
-                ], IndexComponent);
-                return IndexComponent;
+                ], FooterComponent);
+                return FooterComponent;
             }());
-            exports_1("IndexComponent", IndexComponent);
+            exports_1("FooterComponent", FooterComponent);
         }
     }
 });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=footer.js.map

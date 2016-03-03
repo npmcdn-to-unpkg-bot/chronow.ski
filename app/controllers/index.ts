@@ -1,17 +1,12 @@
-import {Component, View} from 'angular2/core';
+import { Component } from 'angular2/core';
+import {FooterComponent} from './footer';
 
 @Component({
-  selector: 'my-app'
-})
-
-@View({
-  templateUrl: '/app/templates/index.html'
+  selector: 'app',
+  templateUrl: '/app/templates/index.html',
+  directives: [FooterComponent]
 })
 
 export class IndexComponent {
-  title: string;
-
-  constructor() {
-    this.title = 'Chronow.ski';
-  }
+  public title: string = 'Chronow.ski'
 }
