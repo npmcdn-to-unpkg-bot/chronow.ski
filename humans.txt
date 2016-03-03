@@ -9,4 +9,5 @@
     Last update: 2016/03/03
     Language: English
     Doctype: HTML5
-    IDE: Sublime Text
+    Technologies and frameworks: TypeScript, Angular 2, Sass, Bourbon, Neat
+    Tools: Gulp, Sublime Text
