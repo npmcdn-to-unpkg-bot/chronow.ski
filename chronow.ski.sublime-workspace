@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"departures",
+				"departures"
+			],
+			[
+				"User",
+				"UserBalance"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tsconfig.json",
+			"settings":
+			{
+				"buffer_size": 342,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss ts",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"new file",
+				"File: New View into File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ss python",
+				"Set Syntax: Python"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/cherry/Documents/Projekty/Chronow.ski/tsconfig.json",
+		"/Users/cherry/Documents/Projekty/s.de-prices/index.ts",
+		"/Users/cherry/Documents/Projekty/s.de-prices/package.json",
+		"/Users/cherry/Downloads/meinfernbus_spider.py",
+		"/Users/cherry/Downloads/ryanair_spider.py",
+		"/Users/cherry/Documents/Projekty/s.de-prices/index.js",
+		"/Users/cherry/Documents/Projekty/s.de-prices/tsconfig.json",
+		"/Users/cherry/Documents/Projekty/Angular/app/home/home.service.js",
+		"/Users/cherry/Documents/Projekty/Angular/app/app.component.ts",
+		"/Users/cherry/Documents/Projekty/Angular/package.json",
+		"/Users/cherry/Documents/Projekty/Angular/app/home/home.service.ts",
+		"/Users/cherry/Documents/Projekty/Angular/app/post/post-detail.component.ts",
+		"/Users/cherry/Documents/Projekty/Angular/app/home/home.component.ts",
+		"/Users/cherry/Documents/Projekty/Angular/app/app.component.js",
+		"/Users/cherry/Documents/Projekty/Angular/index.html",
+		"/Users/cherry/Documents/Projekty/Angular/app/main.ts",
+		"/Users/cherry/Library/Application Support/Sublime Text 3/Packages/User/TypeScript.sublime-settings",
+		"/Users/cherry/Downloads/[DownSub.com] Mr Freeman, part 0 - napisy PL.srt",
+		"/Users/cherry/Documents/Projekty/Angular/tsconfig.json",
+		"/Users/cherry/Documents/Projekty/Angular/typings.json",
+		"/Users/cherry/Documents/Projekty/Angular/app/main.js",
+		"/Users/cherry/Documents/wizzair_spider.py",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/templates/email_html.mako",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/views.py",
+		"/Users/cherry/Documents/USA 2 (1).kml",
+		"/Users/cherry/Documents/Blue Ridge Parkway.kml",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/bot/bot.js",
+		"/Users/cherry/Documents/USA.kml",
+		"/Users/cherry/Documents/USA.kmz",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/schema/schema.py",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/website/website/models.py",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/templates/home.mako",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/templates/base.mako",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/home.sass",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/common.sass",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/vendor/materialize/_navbar.scss",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/vendor/materialize/_variables.scss",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/_variables.scss",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/website/website/scripts/steam.py",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/website/website/views.py",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/static/stylesheet.css",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/website/website/__init__.py",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/website/website/templates/home.mako",
+		"/Users/cherry/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/website/development.ini",
+		"/Users/cherry/Downloads/models.py",
+		"/Users/cherry/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/website/website/templates/home.pt",
+		"/Users/cherry/Documents/Projekty/Wadim/Baza danych.sql",
+		"/Users/cherry/Documents/Projekty/Wadim/angular-sailsjs-boilerplate/frontend/src/app/examples/home/home.js",
+		"/Users/cherry/Documents/Projekty/Wadim/angular-sailsjs-boilerplate/frontend/src/app/examples/examples.js",
+		"/Users/cherry/Documents/Projekty/Wadim/angular-sailsjs-boilerplate/backend/config/local_example.js",
+		"/Volumes/Seagate/Projekty/chronow.ski/experience.html",
+		"/Volumes/Seagate/Projekty/chronow.ski/index.html",
+		"/Volumes/Seagate/Projekty/chronow.ski/js/custom.js",
+		"/Volumes/Seagate/Projekty/chronow.ski/js/main.js",
+		"/Users/cherry/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Users/cherry/Library/Application Support/Sublime Text 3/Packages/User/CSS.sublime-settings",
+		"/Volumes/Seagate/Projekty/chronow.ski/css/main.css",
+		"/Users/cherry/Library/Application Support/Sid Meier's Civilization Beyond Earth/GraphicsSettings.ini",
+		"/Users/cherry/Documents/partials.mako",
+		"/Users/cherry/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/cherry/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\[",
+			"[",
+			"CrisisCenterComponent",
+			"powi",
+			"just",
+			"flight-fare--active",
+			"flight-fare",
+			"55",
+			"zł",
+			"(.*?):(.*?)\\n",
+			"(.*?)(\\d+\\.\\d+)",
+			"(.*)(\\d+/.\\d+)",
+			"(.*)(\\d+\\.\\d+)",
+			"(.*)(\\d+)\\.(\\d+)",
+			"(.*?)(/d+)\\.(/d+)",
+			"print",
+			"Folde",
+			"height:",
+			"line-he",
+			"64px",
+			"\"",
+			"exa",
+			"exa\\",
+			"examples",
+			"index",
+			"about",
+			".index",
+			"todoApp",
+			"    ",
+			"or",
+			"p {",
+			"header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"'$1': '$2'\n",
+			"'$1': '$2'",
+			"$1 $2",
+			".home",
+			"wadim-website",
+			"  "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tsconfig.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "chronow.ski.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"index.",
+				"index.html"
+			],
+			[
+				"main",
+				"app/main.js"
+			],
+			[
+				"app.c",
+				"app/app.component.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Projekty/s.de-prices/s.de-prices.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
