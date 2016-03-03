@@ -10,10 +10,9 @@ var autoprefixer = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
 
 gulp.task('sass', function() {
-  gulp.src('./app/sass/**/*.sass')
+  gulp.src('./app/sass/app.sass')
     .pipe(sass().on('error', sass.logError))
     .pipe(css())
-    .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
     .pipe(concat('app.min.css'))
     .pipe(gulp.dest('./assets/'));
 });
