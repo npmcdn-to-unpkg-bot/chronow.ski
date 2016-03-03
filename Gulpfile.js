@@ -15,7 +15,7 @@ gulp.task('sass', function() {
     .pipe(css())
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
     .pipe(concat('app.min.css'))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./assets/'));
 });
 
 gulp.task('default',function() {
