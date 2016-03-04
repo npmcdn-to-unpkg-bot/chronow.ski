@@ -9,6 +9,6 @@ import {FooterComponent} from './footer';
 })
 
 export class AppComponent {
-  public title: string = 'Chronow.ski'
+  public title: string = 'Chronowski'
   }
 }

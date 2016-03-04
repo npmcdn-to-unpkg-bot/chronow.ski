@@ -26,7 +26,7 @@ System.register(['angular2/core', './index', './footer'], function(exports_1, co
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
-                    this.title = 'Chronow.ski';
+                    this.title = 'Chronowski';
                 }
                 AppComponent = __decorate([
                     core_1.Component({
