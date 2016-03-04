@@ -3,16 +3,15 @@ html, body
     padding: 0
 
 body
-    background-color: #222
-    color: #DDD
+    background-color: #FFF
+    color: #000
     font-family: $helvetica
 
 a
-    color: #E0E386
+    color: #5E89AF
     text-decoration: none
 
 h1, h2, h3, h4, h5, h6
-    color: #E7ED78
     font-family: 'Montserrat'
     font-weight: bold
     margin: 0
@@ -21,19 +20,21 @@ h1, h2, h3, h4, h5, h6
 h1
     font-size: 5em
 
-section.title
-    padding-top: 5em
-
-main
-    @include outer-container(90%);
+div.wrapper
     min-height: 100%
     min-height: 100vh
     padding-bottom: 10em
+
+main
+    @include outer-container(90%)
+
+section.content
+    @include span-columns(10)
 
 footer
     text-align: center
     font-size: 2em
     margin-top: -2.5em
     a
-        color: #EEE
+        color: #000
         padding: .5em
