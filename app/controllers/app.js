@@ -1,4 +1,4 @@
-System.register(['angular2/core'], function(exports_1, context_1) {
+System.register(['angular2/core', './index', './footer'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,32 +10,36 @@ System.register(['angular2/core'], function(exports_1, context_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1;
-    var IndexComponent;
+    var core_1, index_1, footer_1;
+    var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (index_1_1) {
+                index_1 = index_1_1;
+            },
+            function (footer_1_1) {
+                footer_1 = footer_1_1;
             }],
         execute: function() {
-            IndexComponent = (function () {
-                function IndexComponent() {
+            AppComponent = (function () {
+                function AppComponent() {
+                    this.title = 'Chronow.ski';
                 }
-                IndexComponent.prototype.playName = function () {
-                    var audio = new Audio('/assets/jakub.ogg');
-                    audio.play();
-                };
-                IndexComponent = __decorate([
+                AppComponent = __decorate([
                     core_1.Component({
-                        selector: 'app-page',
-                        templateUrl: '/app/templates/index.html',
+                        selector: 'app',
+                        templateUrl: '/app/templates/app.html',
+                        directives: [index_1.IndexComponent, footer_1.FooterComponent]
                     }), 
                     __metadata('design:paramtypes', [])
-                ], IndexComponent);
-                return IndexComponent;
+                ], AppComponent);
+                return AppComponent;
             }());
-            exports_1("IndexComponent", IndexComponent);
+            exports_1("AppComponent", AppComponent);
         }
     }
 });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=app.js.map
