@@ -9,6 +9,11 @@
                 <li><i class="fa fa-fw fa-envelope-o"></i> jakub@chronow.ski</li>
                 <li><i class="fa fa-fw fa-globe"></i> Polish, English</li>
             </ul>
+            <ul class="sidebar-list">
+                <li *ngFor="#sociallink of sociallinks">
+                    <a href="{{sociallink.url}}"><i class="fa fa-fw fa-{{sociallink.icon}}"></i> {{sociallink.name}}</a>
+                </li>
+            </ul>
         </section>
         <section class="content">
             <app-page></app-page>

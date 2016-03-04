@@ -1,9 +1,8 @@
 import {Component} from 'angular2/core';
-import {FooterComponent} from './footer';
 
 @Component({
   selector: 'app-page',
-  templateUrl: '/app/templates/index.html',
+  templateUrl: '/app/templates/index.html'
 })
 
 export class IndexComponent {
