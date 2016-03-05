@@ -1,17 +1,8 @@
 <section class="experience">
-    <div class="project-showcase project-showcase-saloon">
-        <p><img alt="Saloon.tf logo" class="project-logo" src="/assets/img/saloon-logo.jpg"></p>
-        <p>I was the founder and lead developer of <a href="https://saloon.tf">Saloon.tf</a>, a parimutuel betting platform, where users would place in game items as bets on competitive TF2 matches.</p>
-        <p>I started the project in spring 2014 as a hobby, but I quickly found myself managing a popular community project with 20 team members as it provided a service users wanted filling a nice niche. When Saloon was acquired in September 2015, it has distributed over seventy thousands of dollars worth of in game items as prizes. It was a massive learning experience in software development, but I also somewhat unexpectedly learned how to manage a team and work with a large distributed group of likeminded people from all across the world.</p>
-    </div>
-    <div class="project-showcase project-showcase-evlgaming">
-        <p><img alt="EVLGaming logo" class="project-logo" src="/assets/img/evlgaming-logo.jpg"></p>
-        <p>As part of the <a href="http://evlgaming.com">EVLGaming</a> team I was responsible for creation of the Battle Royale tournament's website with custom system for handling players, teams, matches, payment system (Skrill, PayPal, Steam) and competitions. The website wasn't used besides signups in the end since we failed to thoroughly test it in time and because of many players dropping at the last minute forcing us to communicate with them anyways. Despite issues tournament turned out successful and it was a great experience overall.</p>
-    </div>
-    <div class="project-showcase project-showcase-sanmargar">
-        <p><img alt="Sanmargar logo" class="project-logo" src="/assets/img/sanmargar-logo.jpg"></p>
-        <p>During my internship at <a href="http://sanmargar.pl">Sanmargar Team</a> I was tasked with building a website showcasing company's data quality services. I started with creating a special transformation in Pentaho and setting up a Carte service to clean data passed on by the website. While all the data quality processes were already there, I had to tackle few challenges which required writing some blocks in JS.</p>
-        <p>Then I went on to create a sleek client website for the demonstration. While I was the only person responsible for it I had to communicate with management and I got to exchange ideas with other coworkers. It was a very valuable experience that allowed me to learn the office workflow since it was my first on-site job.</p>
-        <p><a href="http://dqs.sanmargar.pl">Website</a></p>
+    <div *ngFor="#project of projects" class="project-showcase project-showcase-{{project.codename}}">
+        <p><img alt="{{project.name}} logo" class="project-logo" src="/assets/img/{{project.codename}}-logo.jpg"></p>
+        <div [innerHTML]=project.description></div>
+        <p><i class="fa fa-code"></i> <span *ngFor="#language of project.languages" class="label">{{language}}</span></p>
+        <p><i class="fa fa-cogs"></i>  <span *ngFor="#framework of project.frameworks" class="label">{{framework}}</span></p>
     </div>
 </section>
