@@ -1,7 +1,6 @@
 import {Component} from 'angular2/core';
 
 @Component({
-  selector: 'app-page',
   templateUrl: '/app/templates/index.html'
 })
 
