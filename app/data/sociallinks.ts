@@ -7,4 +7,5 @@ export var SOCIALLINKS: SocialLink[] = [
   { "name": "Twitter", "icon": "twitter", "url": "https://twitter.com/jakubchronowski" },
   { "name": "Instagram", "icon": "instagram", "url": "https://instagram.com/19kuba22" },
   { "name": "GitHub", "icon": "github", "url": "https://github.com/Kuba77" },
+  { "name": "Steam", "icon": "steam", "url": "https://steamcommunity.com/id/123Coke" },
 ]
