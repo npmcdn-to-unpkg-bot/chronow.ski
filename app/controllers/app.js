@@ -1,4 +1,4 @@
-System.register(['angular2/core', './index', './footer', '../services/sociallinks'], function(exports_1, context_1) {
+System.register(['angular2/core', './index', './sidebar', './footer'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', './index', './footer', '../services/sociallink
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, index_1, footer_1, sociallinks_1;
+    var core_1, index_1, sidebar_1, footer_1;
     var AppComponent;
     return {
         setters:[
@@ -20,27 +20,24 @@ System.register(['angular2/core', './index', './footer', '../services/sociallink
             function (index_1_1) {
                 index_1 = index_1_1;
             },
+            function (sidebar_1_1) {
+                sidebar_1 = sidebar_1_1;
+            },
             function (footer_1_1) {
                 footer_1 = footer_1_1;
-            },
-            function (sociallinks_1_1) {
-                sociallinks_1 = sociallinks_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
-                function AppComponent(_socialLinksService) {
-                    this._socialLinksService = _socialLinksService;
+                function AppComponent() {
                     this.title = 'Chronowski';
-                    this.sociallinks = this._socialLinksService.getSocialLinks();
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'app',
                         templateUrl: '/app/templates/app.html',
-                        directives: [index_1.IndexComponent, footer_1.FooterComponent],
-                        providers: [sociallinks_1.SocialLinksService]
+                        directives: [index_1.IndexComponent, sidebar_1.SidebarComponent, footer_1.FooterComponent]
                     }), 
-                    __metadata('design:paramtypes', [sociallinks_1.SocialLinksService])
+                    __metadata('design:paramtypes', [])
                 ], AppComponent);
                 return AppComponent;
             }());

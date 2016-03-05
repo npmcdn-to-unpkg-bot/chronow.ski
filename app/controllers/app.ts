@@ -1,23 +1,14 @@
 import { Component, OnInit } from 'angular2/core';
 import {IndexComponent} from './index';
+import {SidebarComponent} from './sidebar';
 import {FooterComponent} from './footer';
-
-import {SocialLink} from '../interfaces/sociallink';
-import {SocialLinksService} from '../services/sociallinks';
 
 @Component({
   selector: 'app',
   templateUrl: '/app/templates/app.html',
-  directives: [IndexComponent, FooterComponent],
-  providers: [SocialLinksService]
+  directives: [IndexComponent, SidebarComponent, FooterComponent]
 })
 
 export class AppComponent {
-  sociallinks: SocialLink[];
-
-  constructor(private _socialLinksService: SocialLinksService) {
-    this.sociallinks = this._socialLinksService.getSocialLinks();
-  }
-
   public title: string = 'Chronowski'
 }
