@@ -1,20 +1,19 @@
 section.sidebar
     @include span-columns(2)
-    float: right
-    padding-top: 1em
+    padding-top: 4.5em
     img
         border-radius: 0.25em
-        height: auto
-        max-width: 100%
+        @include fill-parent
 
     ul.sidebar-list
         color: #333
         list-style-type: none
-        margin: 0
-        padding: 0 0 1em 0
+        margin: 0 0 1em
+        padding: 0
         li
             margin: 0
             padding: 0.2em 0
+            color: #333
             a
-                font-weight: inherit
                 color: inherit
+                font-weight: inherit

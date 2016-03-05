@@ -1,23 +1,29 @@
-<div class="wrapper">
-    <main>
-        <section class="sidebar">
-            <img src="https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12642576_1217533394941218_7078169211219335130_n.jpg?oh=f30b318715cd0b9e00e2814d68bdf0d3&oe=574B13D1">
-            <h3>Jakub Chronowski</h3>
-            <ul class="sidebar-list">
-                <li><i class="fa fa-fw fa-map-marker"></i> Warsaw, Poland</li>
-                <li><i class="fa fa-fw fa-phone"></i> +48 737 302 751</li>
-                <li><i class="fa fa-fw fa-envelope-o"></i> jakub@chronow.ski</li>
-                <li><i class="fa fa-fw fa-globe"></i> Polish, English</li>
-            </ul>
-            <ul class="sidebar-list">
-                <li *ngFor="#sociallink of sociallinks">
-                    <a href="{{sociallink.url}}"><i class="fa fa-fw fa-{{sociallink.icon}}"></i> {{sociallink.name}}</a>
-                </li>
-            </ul>
-        </section>
-        <section class="content">
+<nav role="navigation">
+    <ul>
+        <li class="active"><a  href="/">Introduction</a></li>
+        <li><a href="/experience">Experience</a></li>
+    </ul>
+</nav>
+<main>
+    <section class="sidebar">
+        <img src="https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12642576_1217533394941218_7078169211219335130_n.jpg?oh=f30b318715cd0b9e00e2814d68bdf0d3&oe=574B13D1">
+        <h3>Jakub Chronowski</h3>
+        <ul class="sidebar-list">
+            <li><i class="fa fa-fw fa-map-marker"></i> Warsaw, Poland</li>
+            <li><i class="fa fa-fw fa-phone"></i> +48 737 302 751</li>
+            <li><i class="fa fa-fw fa-envelope-o"></i> jakub@chronow.ski</li>
+            <li><i class="fa fa-fw fa-globe"></i> Polish, English</li>
+        </ul>
+        <ul class="sidebar-list">
+            <li *ngFor="#sociallink of sociallinks">
+                <a href="{{sociallink.url}}"><i class="fa fa-fw fa-{{sociallink.icon}}"></i> {{sociallink.name}}</a>
+            </li>
+        </ul>
+    </section>
+    <section class="content">
+        <div class="wrapper">
             <app-page></app-page>
-        </section>
-    </main>
-</div>
-<app-footer></app-footer>
+        </div>
+        <app-footer></app-footer>
+    </section>
+</main>
