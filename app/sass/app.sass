@@ -1,6 +1,24 @@
 @import 'bourbon/bourbon'
 @import 'neat/neat'
 
+$desktop: new-breakpoint(min-width em(1240px) 12);
+$lg-tablet: new-breakpoint(min-width em(1040px) max-width em(1240px) 12);
+$tablet: new-breakpoint(min-width em(640px) max-width em(1040px) 12);
+$mobile: new-breakpoint(max-width em(640px) 12);
+
+$lg-tablet-plus: new-breakpoint(min-width em(1040px) 12);
+$tablet-plus: new-breakpoint(min-width em(640px) 12);
+
+@mixin outer-container-default
+    @include media($desktop)
+        @include outer-container(em(1200))
+    @include media($lg-tablet)
+        @include outer-container(em(1000))
+    @include media($tablet)
+        @include outer-container(em(600))
+    @include media($mobile)
+        @include outer-container(95%)
+
 @import 'default'
 @import 'sidebar'
 @import 'index'

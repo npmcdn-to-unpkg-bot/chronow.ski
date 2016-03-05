@@ -1,9 +1,32 @@
 section.sidebar
-    @include span-columns(2)
+    @include media($lg-tablet-plus)
+        @include span-columns(2)
+        img
+            @include fill-parent
+
+    @include media($tablet)
+        @include outer-container-default
+        img
+            @include span-columns(3)
+        section.information
+            @include span-columns(9)
+            ul.sidebar-list
+                float: left
+                padding-right: 1em
+
+    @include media($mobile)
+        @include outer-container-default
+        img
+            display: none
+        section.information
+            ul.sidebar-list
+                float: left
+                padding-right: 1em
+
     padding-top: 4.5em
+
     img
         border-radius: 0.25em
-        @include fill-parent
 
     ul.sidebar-list
         color: #333
