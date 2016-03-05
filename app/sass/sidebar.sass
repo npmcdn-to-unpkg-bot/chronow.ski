@@ -3,6 +3,13 @@ section.sidebar
         @include span-columns(2)
         img
             @include fill-parent
+        
+        section.information
+            ul.sidebar-list
+                li
+                    overflow-wrap: break-word
+                    word-wrap: break-word
+                    word-break: break-all
 
     @include media($tablet)
         @include outer-container-default
