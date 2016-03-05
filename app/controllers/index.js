@@ -20,6 +20,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
         execute: function() {
             IndexComponent = (function () {
                 function IndexComponent() {
+                    this.page = 'Index';
                 }
                 IndexComponent.prototype.playName = function () {
                     var audio = new Audio('/assets/jakub.ogg');

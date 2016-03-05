@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
+import {Router, RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
 
 import {IndexComponent} from './index';
 import {ExperienceComponent} from './experience';
@@ -19,5 +19,7 @@ import {FooterComponent} from './footer';
 ])
 
 export class AppComponent {
-  public title: string = 'Chronowski'
+  public title: string = 'Chronowski';
+
+  constructor(public router: Router) { }
 }

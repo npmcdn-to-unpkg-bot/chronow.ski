@@ -34,7 +34,8 @@ System.register(['angular2/core', 'angular2/router', './index', './experience', 
             }],
         execute: function() {
             AppComponent = (function () {
-                function AppComponent() {
+                function AppComponent(router) {
+                    this.router = router;
                     this.title = 'Chronowski';
                 }
                 AppComponent = __decorate([
@@ -47,7 +48,7 @@ System.register(['angular2/core', 'angular2/router', './index', './experience', 
                         { path: '/', name: 'Index', component: index_1.IndexComponent, useAsDefault: true },
                         { path: '/experience', name: 'Experience', component: experience_1.ExperienceComponent }
                     ]), 
-                    __metadata('design:paramtypes', [])
+                    __metadata('design:paramtypes', [router_1.Router])
                 ], AppComponent);
                 return AppComponent;
             }());

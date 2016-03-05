@@ -10,5 +10,7 @@ import {Project} from '../interfaces/project';
 })
 
 export class ExperienceComponent {
+  public page: string = 'Experience';
+
   projects: Project[] = PROJECTS;
 }

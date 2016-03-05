@@ -23,6 +23,7 @@ System.register(['../data/projects', 'angular2/core'], function(exports_1, conte
         execute: function() {
             ExperienceComponent = (function () {
                 function ExperienceComponent() {
+                    this.page = 'Experience';
                     this.projects = projects_1.PROJECTS;
                 }
                 ExperienceComponent = __decorate([

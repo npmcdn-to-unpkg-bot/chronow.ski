@@ -5,6 +5,8 @@ import {Component} from 'angular2/core';
 })
 
 export class IndexComponent {
+  public page: string = 'Index';
+
   playName() {
     var audio = new Audio('/assets/jakub.ogg');
     audio.play();
