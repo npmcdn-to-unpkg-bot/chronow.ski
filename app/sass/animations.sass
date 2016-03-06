@@ -10,27 +10,25 @@
   0%
     @include transform(scale(1))
     opacity: 1
-    position: static
-    visibility: visible
-    z-index: 0
-  99.999999%
+    position: initial
+    visibility: initial
+    z-index: initial
+  100% - .00001%
     @include transform(scale(0.9))
     opacity: 0.7
-    position: static
-    visibility: visible
-    z-index: 0
+    position: initial
+    visibility: initial
+    z-index: initial
   100%
     @include transform(scale(0))
-    left: 0
-    position: absolute
-    top: 0
+    @include position(absolute, 0 0 null null)
     visibility: hidden
     z-index: -1
 
 .zoom-in
   @include animation(slide-in-right 0.4s ease-out)
-  position: static
-  visibility: visible
+  position: initial
+  visibility: initial
   z-index: 0
 
 @include keyframes(slide-in-right)
