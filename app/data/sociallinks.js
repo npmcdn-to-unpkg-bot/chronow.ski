@@ -13,6 +13,7 @@ System.register([], function(exports_1, context_1) {
                 { 'name': "LinkedIn", 'icon': 'linkedin', 'url': 'https://linkedin.com/pub/jakub-chronowski/109/80a/810' },
                 { 'name': "GitHub", 'icon': 'github', 'url': 'https://github.com/Kuba77' },
                 { 'name': "Steam", 'icon': 'steam-square', 'url': 'https://steamcommunity.com/id/123Coke' },
+                { 'name': "CouchSurfing", 'icon': 'compass', 'url': 'https://www.couchsurfing.com/users/2000484233' }
             ]);
         }
     }
