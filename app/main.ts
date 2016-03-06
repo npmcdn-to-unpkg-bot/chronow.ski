@@ -4,5 +4,5 @@ import {ROUTER_PROVIDERS} from 'angular2/router'
 import {AppComponent} from './controllers/app'
 
 bootstrap(AppComponent, [
-  ROUTER_PROVIDERS
+  ROUTER_PROVIDERS,
 ]);
