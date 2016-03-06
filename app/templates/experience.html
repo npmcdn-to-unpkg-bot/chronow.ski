@@ -32,7 +32,7 @@
                  src="/assets/img/{{project.codename}}-logo.jpg">
         </p>
         <div [innerHTML]=project.description></div>
-        <p>
+        <div>
             <a (click)="applyFilter($event, '', '')"
                class="normal"
                href>
@@ -44,8 +44,8 @@
                href>
                 {{language}}
             </a>
-        </p>
-        <p>
+        </div>
+        <div>
             <a (click)="applyFilter($event, '', '')"
                class="normal"
                href>
@@ -57,6 +57,6 @@
                href>
                 {{technology}}
             </a>
-        </p>
+        </div>
     </div>
 </section>
