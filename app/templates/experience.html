@@ -13,7 +13,7 @@
     <div class="projects-filter">
         <i class="fa fa-cogs"></i>
         <select [ngModel]="active_framework"
-                (change)="apply_filter($event, '', $event.target.value)">
+                (change)="applyFilter($event, '', $event.target.value)">
             <option value="">All</option>
             <option *ngFor="#framework of frameworks"
                     [value]=framework>
@@ -21,8 +21,10 @@
             </option>
         </select>
     </div>
-    <div *ngFor="#project of projects | projectfilter:active_language:active_framework"
-         class="project-showcase project-showcase-{{project.codename}}">
+    
+    <div *ngFor="#project of projects"
+         class="project-showcase project-showcase-{{project.codename}}"
+         [class.hide]="!checkFilter(project)">
         <p>
             <img alt="{{project.name}} logo"
                  class="project-logo"
@@ -32,7 +34,7 @@
         <p>
             <i class="fa fa-code"></i>
             <a *ngFor="#language of project.languages"
-               (click)="apply_filter($event, language, '')"
+               (click)="applyFilter($event, language, '')"
                class="label"
                href>
                 {{language}}
@@ -41,7 +43,7 @@
         <p>
             <i class="fa fa-cogs"></i>
             <a *ngFor="#framework of project.frameworks"
-               (click)="apply_filter($event, '', framework)"
+               (click)="applyFilter($event, '', framework)"
                class="label"
                href>
                 {{framework}}

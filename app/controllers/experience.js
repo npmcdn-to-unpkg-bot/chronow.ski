@@ -1,4 +1,4 @@
-System.register(['../data/projects', 'angular2/core', '../pipes/projectfilter'], function(exports_1, context_1) {
+System.register(['../data/projects', 'angular2/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['../data/projects', 'angular2/core', '../pipes/projectfilter'],
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var projects_1, core_1, projectfilter_1;
+    var projects_1, core_1;
     var ExperienceComponent;
     return {
         setters:[
@@ -19,9 +19,6 @@ System.register(['../data/projects', 'angular2/core', '../pipes/projectfilter'],
             },
             function (core_1_1) {
                 core_1 = core_1_1;
-            },
-            function (projectfilter_1_1) {
-                projectfilter_1 = projectfilter_1_1;
             }],
         execute: function() {
             ExperienceComponent = (function () {
@@ -48,16 +45,24 @@ System.register(['../data/projects', 'angular2/core', '../pipes/projectfilter'],
                         }
                     }
                 }
-                ExperienceComponent.prototype.apply_filter = function ($event, language, framework) {
+                ExperienceComponent.prototype.applyFilter = function ($event, language, framework) {
                     $event.preventDefault();
                     $event.stopPropagation();
                     this.active_language = language;
                     this.active_framework = framework;
                 };
+                ExperienceComponent.prototype.checkFilter = function (project) {
+                    if (this.active_language != '') {
+                        return project.languages.indexOf(this.active_language) > -1;
+                    }
+                    if (this.active_framework != '') {
+                        return project.frameworks.indexOf(this.active_framework) > -1;
+                    }
+                    return true;
+                };
                 ExperienceComponent = __decorate([
                     core_1.Component({
-                        templateUrl: '/app/templates/experience.html',
-                        pipes: [projectfilter_1.ProjectFilterPipe]
+                        templateUrl: '/app/templates/experience.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], ExperienceComponent);
