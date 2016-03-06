@@ -52,6 +52,14 @@ System.register(['../interfaces/school'], function(exports_1, context_1) {
                     'name': "Community Middle School no. 40 in Warsaw",
                     'codename': 'stryjenskich',
                     'logo': true,
+                    'exams': [
+                        { 'name': "Polish", 'score': 88 },
+                        { 'name': "History and Civics", 'score': 85 },
+                        { 'name': "Math", 'score': 93 },
+                        { 'name': "Science", 'score': 77 },
+                        { 'name': "Basic English", 'score': 98 },
+                        { 'name': "Advanced English", 'score': 93 },
+                    ],
                     'subjects': [
                         { 'name': "Conduct", 'grade': new school_1.Grade(5) },
                         { 'name': "Religion", 'grade': new school_1.Grade(5) },
@@ -79,6 +87,13 @@ System.register(['../interfaces/school'], function(exports_1, context_1) {
                     'name': "Primary School no. 146 in Warsaw",
                     'codename': 'sp146',
                     'logo': true,
+                    'exams': [
+                        { 'name': "Reading", 'score': 100 },
+                        { 'name': "Writing", 'score': 60 },
+                        { 'name': "Reasoning", 'score': 100 },
+                        { 'name': "Use of information", 'score': 75 },
+                        { 'name': "Use of knowledge", 'score': 100 },
+                    ],
                     'subjects': [
                         { 'name': "Conduct", 'grade': new school_1.Grade(4) },
                         { 'name': "Religion", 'grade': new school_1.Grade(3) },

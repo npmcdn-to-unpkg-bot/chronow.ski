@@ -35,10 +35,16 @@ export interface Subject {
   grade: Grade;
 }
 
+export interface Exam {
+  name: string;
+  score: number;
+}
+
 export interface School {
   name: string;
   codename: string;
   logo: boolean;
+  exams?: Exam[];
   technical_subjects?: Subject[];
   subjects: Subject[];
 }
