@@ -11,9 +11,9 @@ import {Project} from '../interfaces/project';
 export class ExperienceComponent {
   public page: string = 'Experience';
   public active_language: string = '';
-  public active_framework: string = '';
+  public active_technology: string = '';
   public languages: string[] = [];
-  public frameworks: string[] = [];
+  public stack: string[] = [];
 
   projects: Project[] = PROJECTS;
 
@@ -23,23 +23,31 @@ export class ExperienceComponent {
         if (this.languages.indexOf(language) == -1) { this.languages.push(language); }
       }
 
-      for (var framework of project.frameworks) {
-        if (this.frameworks.indexOf(framework) == -1) { this.frameworks.push(framework); }
+      for (var technology of project.stack) {
+        if (this.stack.indexOf(technology) == -1) { this.stack.push(technology); }
       }
     }
   }
 
-  applyFilter($event, language: string, framework: string) {
+  applyFilter($event, language: string, technology: string) {
     $event.preventDefault();
     $event.stopPropagation();
     
-    this.active_language = language;
-    this.active_framework = framework;
+    if (this.active_language != '' && this.active_language == language) {
+      this.active_language = '';
+    }
+    else if (this.active_technology != '' && this.active_technology == technology) {
+      this.active_technology = '';
+    }
+    else {
+      this.active_language = language;
+      this.active_technology = technology;
+    }
   }
 
   checkFilter(project) {
     if (this.active_language != '') { return project.languages.indexOf(this.active_language) > -1; }
-    if (this.active_framework != '') { return project.frameworks.indexOf(this.active_framework) > -1; }
+    if (this.active_technology != '') { return project.stack.indexOf(this.active_technology) > -1; }
     return true;
   }
 }

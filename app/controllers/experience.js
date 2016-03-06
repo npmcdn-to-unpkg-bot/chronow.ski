@@ -25,9 +25,9 @@ System.register(['../data/projects', 'angular2/core'], function(exports_1, conte
                 function ExperienceComponent() {
                     this.page = 'Experience';
                     this.active_language = '';
-                    this.active_framework = '';
+                    this.active_technology = '';
                     this.languages = [];
-                    this.frameworks = [];
+                    this.stack = [];
                     this.projects = projects_1.PROJECTS;
                     for (var _i = 0, _a = this.projects; _i < _a.length; _i++) {
                         var project = _a[_i];
@@ -37,26 +37,34 @@ System.register(['../data/projects', 'angular2/core'], function(exports_1, conte
                                 this.languages.push(language);
                             }
                         }
-                        for (var _d = 0, _e = project.frameworks; _d < _e.length; _d++) {
-                            var framework = _e[_d];
-                            if (this.frameworks.indexOf(framework) == -1) {
-                                this.frameworks.push(framework);
+                        for (var _d = 0, _e = project.stack; _d < _e.length; _d++) {
+                            var technology = _e[_d];
+                            if (this.stack.indexOf(technology) == -1) {
+                                this.stack.push(technology);
                             }
                         }
                     }
                 }
-                ExperienceComponent.prototype.applyFilter = function ($event, language, framework) {
+                ExperienceComponent.prototype.applyFilter = function ($event, language, technology) {
                     $event.preventDefault();
                     $event.stopPropagation();
-                    this.active_language = language;
-                    this.active_framework = framework;
+                    if (this.active_language != '' && this.active_language == language) {
+                        this.active_language = '';
+                    }
+                    else if (this.active_technology != '' && this.active_technology == technology) {
+                        this.active_technology = '';
+                    }
+                    else {
+                        this.active_language = language;
+                        this.active_technology = technology;
+                    }
                 };
                 ExperienceComponent.prototype.checkFilter = function (project) {
                     if (this.active_language != '') {
                         return project.languages.indexOf(this.active_language) > -1;
                     }
-                    if (this.active_framework != '') {
-                        return project.frameworks.indexOf(this.active_framework) > -1;
+                    if (this.active_technology != '') {
+                        return project.stack.indexOf(this.active_technology) > -1;
                     }
                     return true;
                 };
