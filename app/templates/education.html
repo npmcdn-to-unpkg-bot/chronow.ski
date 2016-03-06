@@ -1,0 +1,34 @@
+<section class="education">
+    <div *ngFor="#school of schools"
+         class="school-showcase school-showcase-{{school.codename}}">
+        <p *ngIf="school.logo">
+            <img alt="{{school.name}} logo"
+                 class="school-logo"
+                 src="/assets/img/schools/{{school.codename}}-logo.jpg">
+        </p>
+        <h2>{{school.name}}</h2>
+        <div class="school-grades-column">
+            <h4>School Subjects</h4>
+            <table class="school-grades">
+                <tbody>
+                    <tr *ngFor="#subject of school.subjects">
+                        <td>{{subject.name}}</td>
+                        <td>{{subject.grade.american}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div *ngIf="school.technical_subjects"
+             class="school-grades-column">
+            <h4>Technical Subjects</h4>
+            <table class="school-grades">
+                <tbody>
+                    <tr *ngFor="#subject of school.technical_subjects">
+                        <td>{{subject.name}}</td>
+                        <td>{{subject.grade.american}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

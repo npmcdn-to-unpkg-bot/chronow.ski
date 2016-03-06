@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/router', './index', './experience', './sidebar', './footer'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/router', './index', './education', './experience', './sidebar', './footer'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', 'angular2/router', './index', './experience', 
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, router_1, index_1, experience_1, sidebar_1, footer_1;
+    var core_1, router_1, index_1, education_1, experience_1, sidebar_1, footer_1;
     var AppComponent;
     return {
         setters:[
@@ -22,6 +22,9 @@ System.register(['angular2/core', 'angular2/router', './index', './experience', 
             },
             function (index_1_1) {
                 index_1 = index_1_1;
+            },
+            function (education_1_1) {
+                education_1 = education_1_1;
             },
             function (experience_1_1) {
                 experience_1 = experience_1_1;
@@ -46,6 +49,7 @@ System.register(['angular2/core', 'angular2/router', './index', './experience', 
                     }),
                     router_1.RouteConfig([
                         { path: '/', name: 'Index', component: index_1.IndexComponent, useAsDefault: true },
+                        { path: '/education', name: 'Education', component: education_1.EducationComponent },
                         { path: '/experience', name: 'Experience', component: experience_1.ExperienceComponent }
                     ]), 
                     __metadata('design:paramtypes', [router_1.Router])

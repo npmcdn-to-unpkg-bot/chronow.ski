@@ -1,8 +1,14 @@
 <nav role="navigation">
     <ul>
-        <li [class.active]="router.isRouteActive(router.generate(['/Index']))"><a [routerLink]="['Index']">Introduction</a></li>
-        <li><a href="/education">Education</a></li>
-        <li [class.active]="router.isRouteActive(router.generate(['/Experience']))"><a [routerLink]="['Experience']">Experience</a></li>
+        <li [class.active]="router.isRouteActive(router.generate(['/Index']))">
+            <a [routerLink]="['Index']">Introduction</a>
+        </li>
+        <li [class.active]="router.isRouteActive(router.generate(['/Education']))">
+            <a [routerLink]="['Education']">Education</a>
+        </li>
+        <li [class.active]="router.isRouteActive(router.generate(['/Experience']))">
+            <a [routerLink]="['Experience']">Experience</a>
+        </li>
         <li><a href="/travel">Travel</a></li>
     </ul>
 </nav>
