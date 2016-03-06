@@ -18,7 +18,7 @@ export var PROJECTS: Project[] = [
       <p>As part of the <a href="http://evlgaming.com">EVLGaming</a> team I was responsible for creation of the Battle Royale tournament's website with custom system for handling players, teams, matches, payment system (Skrill, PayPal, Steam) and competitions. The website wasn't used besides signups in the end since we failed to thoroughly test it in time and because of many players dropping at the last minute forcing us to communicate with them anyways. Despite issues tournament turned out successful and it was a great experience overall.</p>
     `,
     "languages": ["Python", "HTML", "CoffeScript", "JavaScript", "CSS", "SQL"],
-    "frameworks": ["Pyramid", "Steam", "SQLAlchemy", "jQuery", "Bootstrap"]
+    "frameworks": ["Pyramid", "Steam", "PostgreSQL", "SQLAlchemy", "jQuery", "Bootstrap"]
   },
   {
     "name": "Sanmargar",

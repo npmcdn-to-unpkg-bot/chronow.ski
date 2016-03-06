@@ -2,7 +2,7 @@
     <div class="projects-filter">
         <i class="fa fa-code"></i>
         <select [ngModel]="active_language"
-                (change)="apply_filter($event, $event.target.value, '')">
+                (change)="applyFilter($event, $event.target.value, '')">
             <option value="">All</option>
             <option *ngFor="#language of languages"
                     [value]=language>
@@ -21,10 +21,11 @@
             </option>
         </select>
     </div>
-    
+
     <div *ngFor="#project of projects"
          class="project-showcase project-showcase-{{project.codename}}"
-         [class.hide]="!checkFilter(project)">
+         [class.zoom-out]="!checkFilter(project)"
+         [class.zoom-in]="checkFilter(project)">
         <p>
             <img alt="{{project.name}} logo"
                  class="project-logo"
