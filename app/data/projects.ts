@@ -41,6 +41,15 @@ export var PROJECTS: Project[] = [
     "stack": ["Nginx", "HHVM", "WordPress", "Roots.io", "Socket.IO", "Grunt", "jQuery", "Bootstrap"]
   },
   {
+    "name": "TF2Center",
+    "codename": "tf2center",
+    "description": `
+      <p>I created a Steam bot in Java from ground up to accept voluntary donations for <a href="http://tf2center.com">TF2Center.com</a> website. Reading Steam website’s source code and reverse engineering allowed me to create Steam bot for accepting item donations for TF2Center.com similar to the one used by Saloon.tf, just with less functionality. It was able to emulate a web browser, saving sentry files, log in with SteamGuard code, gather received offers and filter, accept those that contained valuable items declining others and return a list of users who were eligible to receive complimentary status on the website.</p>
+    `,
+    "languages": ["Java"],
+    "stack": ["Mechanize", "Maven", "Steam"]
+  },
+  {
     "name": "Tryhard Brigade",
     "codename": "tryhard",
     "description": `
@@ -49,14 +58,5 @@ export var PROJECTS: Project[] = [
     `,
     "languages": ["Python", "C#", "PHP", "SourcePawn", "HTML", "JavaScript", "CSS"],
     "stack": ["Linux", "Apache2", "SRCDS", "SteamBot", "Steam", "Smarty", "SourceMod", "Bootstrap"]
-  },
-  {
-    "name": "TF2Center",
-    "codename": "tf2center",
-    "description": `
-      <p>I created a Steam bot in Java from ground up to accept voluntary donations for <a href="http://tf2center.com">TF2Center.com</a> website. Reading Steam website’s source code and reverse engineering allowed me to create Steam bot for accepting item donations for TF2Center.com similar to the one used by Saloon.tf, just with less functionality. It was able to emulate a web browser, saving sentry files, log in with SteamGuard code, gather received offers and filter, accept those that contained valuable items declining others and return a list of users who were eligible to receive complimentary status on the website.</p>
-    `,
-    "languages": ["Java"],
-    "stack": ["Mechanize", "Maven", "Steam"]
   },
 ]

@@ -35,18 +35,18 @@ System.register([], function(exports_1, context_1) {
                     "stack": ["Nginx", "HHVM", "WordPress", "Roots.io", "Socket.IO", "Grunt", "jQuery", "Bootstrap"]
                 },
                 {
-                    "name": "Tryhard Brigade",
-                    "codename": "tryhard",
-                    "description": "\n      <p>As <a href=\"https://tryhardbrigade.com\">TryhardBrigade.com</a> we provided top notch training servers with variety of mods that let players practice competitive TF2 gameplay for almost four years.</p>\n      <p>I could have never expected such a success when Mateusz first approached me. We made a two-men strong team where he was responsible for PR and SRCDS configuration while I worked on Linux server configuration, website, donation bot, supervisor application, and communication with English speaking community. From servers used by me and my friends we grew to become the biggest network of its kind in Europe. Our main server was full 22 hours a day during our best times and hosted many of the best European players for more than ten ETF2L seasons.</p>\n    ",
-                    "languages": ["Python", "C#", "PHP", "SourcePawn", "HTML", "JavaScript", "CSS"],
-                    "stack": ["Linux", "Apache2", "SRCDS", "SteamBot", "Steam", "Smarty", "SourceMod", "Bootstrap"]
-                },
-                {
                     "name": "TF2Center",
                     "codename": "tf2center",
                     "description": "\n      <p>I created a Steam bot in Java from ground up to accept voluntary donations for <a href=\"http://tf2center.com\">TF2Center.com</a> website. Reading Steam website\u2019s source code and reverse engineering allowed me to create Steam bot for accepting item donations for TF2Center.com similar to the one used by Saloon.tf, just with less functionality. It was able to emulate a web browser, saving sentry files, log in with SteamGuard code, gather received offers and filter, accept those that contained valuable items declining others and return a list of users who were eligible to receive complimentary status on the website.</p>\n    ",
                     "languages": ["Java"],
                     "stack": ["Mechanize", "Maven", "Steam"]
+                },
+                {
+                    "name": "Tryhard Brigade",
+                    "codename": "tryhard",
+                    "description": "\n      <p>As <a href=\"https://tryhardbrigade.com\">TryhardBrigade.com</a> we provided top notch training servers with variety of mods that let players practice competitive TF2 gameplay for almost four years.</p>\n      <p>I could have never expected such a success when Mateusz first approached me. We made a two-men strong team where he was responsible for PR and SRCDS configuration while I worked on Linux server configuration, website, donation bot, supervisor application, and communication with English speaking community. From servers used by me and my friends we grew to become the biggest network of its kind in Europe. Our main server was full 22 hours a day during our best times and hosted many of the best European players for more than ten ETF2L seasons.</p>\n    ",
+                    "languages": ["Python", "C#", "PHP", "SourcePawn", "HTML", "JavaScript", "CSS"],
+                    "stack": ["Linux", "Apache2", "SRCDS", "SteamBot", "Steam", "Smarty", "SourceMod", "Bootstrap"]
                 },
             ]);
         }
