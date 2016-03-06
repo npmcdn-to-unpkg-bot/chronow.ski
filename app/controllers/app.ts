@@ -13,7 +13,6 @@ import {FooterComponent} from './footer';
   directives: [ROUTER_DIRECTIVES, SidebarComponent, FooterComponent]
 })
 
-
 @RouteConfig([
   {path: '/', name: 'Index', component: IndexComponent, useAsDefault: true},
   {path: '/education', name: 'Education', component: EducationComponent},
