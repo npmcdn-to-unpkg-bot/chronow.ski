@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var css = require('gulp-minify-css');
+var uglify = require('gulp-uglify');
 
 var sys = require('sys')
 var exec = require('child_process').exec;
@@ -17,8 +18,38 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./assets/'));
 });
 
-gulp.task('default',function() {
+var ie_dependencies = [
+  'node_modules/es6-shim/es6-shim.min.js',
+  'node_modules/systemjs/dist/system-polyfills.js',
+  'node_modules/angular2/es6/prod/src/testing/shims_for_IE.js',
+]
+
+var dependencies = [
+  'node_modules/angular2/bundles/angular2-polyfills.min.js',
+  'node_modules/systemjs/dist/system.js',
+  'node_modules/rx-lite/rx.lite.min.js',
+  'node_modules/angular2/bundles/router.min.js',
+  'node_modules/angular2/bundles/angular2.min.js',
+]
+
+gulp.task('ie_scripts', function() {
+  gulp.src(ie_dependencies)
+    .pipe(concat('app.polyfills.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./assets/'))
+});
+
+gulp.task('scripts', function() {
+  gulp.src(dependencies)
+    .pipe(concat('app.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./assets/'))
+});
+
+gulp.task('default', function() {
   gulp.watch('./app/sass/*.sass', ['sass']);
+  gulp.watch(ie_dependencies, ['ie_scripts']);
+  gulp.watch(dependencies, ['scripts']);
   gulp.watch('./**/*.ts', function() {
     exec("tsc", puts);
   });
