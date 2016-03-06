@@ -1,8 +1,51 @@
 <section class="experience">
-    <div *ngFor="#project of projects" class="project-showcase project-showcase-{{project.codename}}">
-        <p><img alt="{{project.name}} logo" class="project-logo" src="/assets/img/{{project.codename}}-logo.jpg"></p>
+    <div class="projects-filter">
+        <i class="fa fa-code"></i>
+        <select [ngModel]="active_language"
+                (change)="apply_filter($event, $event.target.value, '')">
+            <option value="">All</option>
+            <option *ngFor="#language of languages"
+                    [value]=language>
+                {{language}}
+            </option>
+        </select>
+    </div>
+    <div class="projects-filter">
+        <i class="fa fa-cogs"></i>
+        <select [ngModel]="active_framework"
+                (change)="apply_filter($event, '', $event.target.value)">
+            <option value="">All</option>
+            <option *ngFor="#framework of frameworks"
+                    [value]=framework>
+                {{framework}}
+            </option>
+        </select>
+    </div>
+    <div *ngFor="#project of projects | projectfilter:active_language:active_framework"
+         class="project-showcase project-showcase-{{project.codename}}">
+        <p>
+            <img alt="{{project.name}} logo"
+                 class="project-logo"
+                 src="/assets/img/{{project.codename}}-logo.jpg">
+        </p>
         <div [innerHTML]=project.description></div>
-        <p><i class="fa fa-code"></i> <span *ngFor="#language of project.languages" class="label">{{language}}</span></p>
-        <p><i class="fa fa-cogs"></i>  <span *ngFor="#framework of project.frameworks" class="label">{{framework}}</span></p>
+        <p>
+            <i class="fa fa-code"></i>
+            <a *ngFor="#language of project.languages"
+               (click)="apply_filter($event, language, '')"
+               class="label"
+               href>
+                {{language}}
+            </a>
+        </p>
+        <p>
+            <i class="fa fa-cogs"></i>
+            <a *ngFor="#framework of project.frameworks"
+               (click)="apply_filter($event, '', framework)"
+               class="label"
+               href>
+                {{framework}}
+            </a>
+        </p>
     </div>
 </section>
