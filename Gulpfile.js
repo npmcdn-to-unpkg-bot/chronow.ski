@@ -32,24 +32,8 @@ var dependencies = [
   'node_modules/angular2/bundles/angular2.min.js',
 ]
 
-gulp.task('ie_scripts', function() {
-  gulp.src(ie_dependencies)
-    .pipe(concat('app.polyfills.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('./assets/'))
-});
-
-gulp.task('scripts', function() {
-  gulp.src(dependencies)
-    .pipe(concat('app.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('./assets/'))
-});
-
 gulp.task('default', function() {
   gulp.watch('./app/sass/*.sass', ['sass']);
-  gulp.watch(ie_dependencies, ['ie_scripts']);
-  gulp.watch(dependencies, ['scripts']);
   gulp.watch('./**/*.ts', function() {
     exec("tsc", puts);
   });
