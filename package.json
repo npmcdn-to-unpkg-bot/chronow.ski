@@ -1,19 +1,24 @@
 {
-  "name": "chronow.ski",
+  "name": "Chronowski",
   "version": "1.0.0",
+  "main": "server/server.js",
   "scripts": {
-    "start": "concurrently \"npm run gulp\" \"npm run lite\" ",
+    "start": "concurrently \"npm run gulp\" \"npm run lite\"",
     "gulp": "gulp",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "lite": "lite-server",
+    "lite": "node .",
     "typings": "typings",
-    "postinstall": "typings install"
+    "postinstall": "typings install",
+    "pretest": "jshint .",
+    "posttest": "nsp check"
   },
   "license": "ISC",
   "dependencies": {
     "angular2": "2.0.0-beta.7",
+    "compression": "^1.0.3",
     "concurrently": "^2.0.0",
+    "cors": "^2.5.2",
     "es6-promise": "^3.0.2",
     "es6-shim": "^0.33.3",
     "express": "^4.13.4",
@@ -24,12 +29,26 @@
     "gulp-sass": "^2.2.0",
     "gulp-uglify": "^1.5.3",
     "lite-server": "^2.1.0",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-datasource-juggler": "^2.39.0",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
     "sass": "^0.5.0",
+    "serve-favicon": "^2.0.1",
     "systemjs": "0.19.22",
     "typescript": "^1.8.2",
     "typings": "^0.6.9",
     "zone.js": "0.5.15"
-  }
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "Chronowski"
 }

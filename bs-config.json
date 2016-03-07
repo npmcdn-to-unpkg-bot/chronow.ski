@@ -1,5 +1,0 @@
-{
-    "port": 3000,
-    "files": ["index.html", "humans.txt", "./app/**/*.{html,htm,css,js,json}"],
-    "server": { "baseDir": "./client/" }
-}

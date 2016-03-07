@@ -16,7 +16,7 @@ gulp.task('sass', function() {
 
 gulp.task('default', function() {
   gulp.watch('./client/app/sass/*.sass', ['sass']);
-  gulp.watch('./**/*.ts', function() {
+  gulp.watch('./client/**/*.ts', function() {
     exec("tsc", puts);
   });
 });
