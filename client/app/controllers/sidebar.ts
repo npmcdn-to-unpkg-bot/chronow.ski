@@ -1,4 +1,5 @@
 import {Component} from 'angular2/core';
+import {Http, HTTP_PROVIDERS} from 'angular2/http';
 
 import {SocialLink} from '../interfaces/sociallink';
 import {SocialLinksService} from '../services/sociallinks';
@@ -6,13 +7,13 @@ import {SocialLinksService} from '../services/sociallinks';
 @Component({
   selector: 'app-sidebar',
   templateUrl: '/app/templates/sidebar.html',
-  providers: [SocialLinksService]
+  providers: [HTTP_PROVIDERS]
 })
 
 export class SidebarComponent {
   sociallinks: SocialLink[];
 
-  constructor(private _socialLinksService: SocialLinksService) {
-    this.sociallinks = this._socialLinksService.getSocialLinks();
+  constructor(http: Http) {
+    http.get('/api/sociallinks/').subscribe(sociallinks => this.sociallinks = sociallinks.json());
   }
 }

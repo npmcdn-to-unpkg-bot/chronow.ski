@@ -12,5 +12,9 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "sociallink": {
+    "dataSource": "db",
+    "public": true
   }
 }

@@ -1,4 +1,4 @@
-System.register(['angular2/core', '../services/sociallinks'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/http'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,29 +10,29 @@ System.register(['angular2/core', '../services/sociallinks'], function(exports_1
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, sociallinks_1;
+    var core_1, http_1;
     var SidebarComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (sociallinks_1_1) {
-                sociallinks_1 = sociallinks_1_1;
+            function (http_1_1) {
+                http_1 = http_1_1;
             }],
         execute: function() {
             SidebarComponent = (function () {
-                function SidebarComponent(_socialLinksService) {
-                    this._socialLinksService = _socialLinksService;
-                    this.sociallinks = this._socialLinksService.getSocialLinks();
+                function SidebarComponent(http) {
+                    var _this = this;
+                    http.get('/api/sociallinks/').subscribe(function (sociallinks) { return _this.sociallinks = sociallinks.json(); });
                 }
                 SidebarComponent = __decorate([
                     core_1.Component({
                         selector: 'app-sidebar',
                         templateUrl: '/app/templates/sidebar.html',
-                        providers: [sociallinks_1.SocialLinksService]
+                        providers: [http_1.HTTP_PROVIDERS]
                     }), 
-                    __metadata('design:paramtypes', [sociallinks_1.SocialLinksService])
+                    __metadata('design:paramtypes', [http_1.Http])
                 ], SidebarComponent);
                 return SidebarComponent;
             }());

@@ -1,0 +1,621 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cert",
+				"certificates	(education.html)"
+			],
+			[
+				"Certifi",
+				"Certificate"
+			],
+			[
+				"Certif",
+				"Certificate	(certificate.ts)"
+			],
+			[
+				"techn",
+				"technical_subjects	(schools.ts)"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"acti",
+				"active_language"
+			],
+			[
+				"projects",
+				"projectsfilter	(experience.html)"
+			],
+			[
+				"Langauge",
+				"LanguageFilterPipe	alias"
+			],
+			[
+				"Injec",
+				"Injectable	var"
+			],
+			[
+				"use",
+				"useAsDefault	property"
+			],
+			[
+				"social",
+				"sociallinks	(sociallinks.ts)"
+			],
+			[
+				"SocialLink",
+				"SocialLinksService	(sociallinks.ts)"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"IndexComp",
+				"IndexComponent"
+			],
+			[
+				"departures",
+				"departures"
+			],
+			[
+				"User",
+				"UserBalance"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "lower",
+		"selected_items":
+		[
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"ss sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"colorp",
+				"Color Picker"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss ts",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"new file",
+				"File: New View into File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ss python",
+				"Set Syntax: Python"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/cherry/Documents/Projekty/API/package.json",
+		"/Users/cherry/Documents/Projekty/API/chronow.ski.sublime-project",
+		"/Users/cherry/Documents/Projekty/API/node_modules/angular2/bundles/angular2.min.js",
+		"/Users/cherry/Documents/Oceny.txt",
+		"/Users/cherry/Documents/Projekty/API/index.html",
+		"/Users/cherry/Documents/Projekty/API/app/sass/default.sass",
+		"/Users/cherry/Documents/Projekty/API/app/sass/sidebar.sass",
+		"/Users/cherry/Documents/Projekty/API/app/interfaces/sociallink.js",
+		"/Users/cherry/Documents/Projekty/API/app/sass/education.sass",
+		"/Users/cherry/Documents/Projekty/API/app/sass/experience.sass",
+		"/Users/cherry/Documents/Projekty/API/app/templates/footer.html",
+		"/Users/cherry/Documents/Projekty/API/Gulpfile.js",
+		"/Users/cherry/Documents/Projekty/API/bs-config.json",
+		"/Users/cherry/Documents/Projekty/API/app/sass/app.sass",
+		"/Users/cherry/Documents/Projekty/API/app/controllers/index.ts",
+		"/Users/cherry/Documents/Projekty/API/app/controllers/app.ts",
+		"/Users/cherry/Documents/Projekty/API/app/templates/experience.html",
+		"/Users/cherry/Documents/Projekty/API/app/data/certificates.ts",
+		"/Users/cherry/Documents/Projekty/API/app/interfaces/certificate.ts",
+		"/Users/cherry/Documents/Projekty/API/app/templates/education.html",
+		"/Users/cherry/Documents/Projekty/API/app/data/certificates.js",
+		"/Users/cherry/Documents/Projekty/API/app/interfaces/school.ts",
+		"/Users/cherry/Documents/Projekty/API/app/controllers/education.ts",
+		"/Users/cherry/Documents/Projekty/API/app/sass/animations.sass",
+		"/Users/cherry/Documents/Projekty/API/app/interfaces/project.ts",
+		"/Users/cherry/Documents/Projekty/API/app/controllers/education.js",
+		"/Users/cherry/Documents/Projekty/API/app/data/schools.ts",
+		"/Users/cherry/Documents/Projekty/API/app/data/sociallinks.ts",
+		"/Users/cherry/Documents/Projekty/API/app/data/projects.ts",
+		"/Users/cherry/Documents/Projekty/API/app/controllers/experience.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/node_modules/systemjs/dist/system-polyfills.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/node_modules/angular2/bundles/angular2-polyfills.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/index.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/main.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/app.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/travel.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/travel.html",
+		"/Users/cherry/Downloads/[DownSub.com] Mr. Freeman, part 32 [Napisy.pl].srt",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/sidebar.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/pipes/languagefilter.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/pipes/projectfilter.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/interfaces/project.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/data/sociallinks.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/sidebar.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/index.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/app.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/footer.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/default.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/app.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/index.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/experience.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/index.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/app.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/sidebar.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/services/sociallinks.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/data/projects.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/footer.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/index.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/typings.json",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/Gulpfile.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/package.json",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/humans.txt",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/footer.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/data/sociallinks.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/interfaces/sociallink.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/assets/i18n/en.json",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/map.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/node_modules/lodash/object/defaults.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/vendor/_variables.scss",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/vendor/style.scss",
+		"/Users/cherry/Downloads/gridle-2.0.44/js/gridle.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/vendor/tests.scss",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/.gitignore",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app.min.css",
+		"/Users/cherry/Desktop/IMG_4899.jpg",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/usr/share/nginx/chronowski/index.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/css/app.css",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/css/app.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/index/index.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/index/index.ts",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/usr/share/nginx/chronowski/css/custom.css",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/usr/share/nginx/chronowski/Gruntfile.js",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/usr/share/nginx/chronowski/css/app.css",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/LICENSE",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/components/index.ts",
+		"/Users/cherry/.shuttle.json",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/tsconfig.json",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/index.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/app.component.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/components/index.html",
+		"/Users/cherry/Documents/Projekty/s.de-prices/index.ts",
+		"/Users/cherry/Documents/Projekty/s.de-prices/package.json",
+		"/Users/cherry/Downloads/meinfernbus_spider.py",
+		"/Users/cherry/Downloads/ryanair_spider.py",
+		"/Users/cherry/Documents/Projekty/s.de-prices/index.js",
+		"/Users/cherry/Documents/Projekty/s.de-prices/tsconfig.json",
+		"/Users/cherry/Documents/Projekty/Angular/app/home/home.service.js",
+		"/Users/cherry/Documents/Projekty/Angular/app/app.component.ts",
+		"/Users/cherry/Documents/Projekty/Angular/package.json",
+		"/Users/cherry/Documents/Projekty/Angular/app/home/home.service.ts",
+		"/Users/cherry/Documents/Projekty/Angular/app/post/post-detail.component.ts",
+		"/Users/cherry/Documents/Projekty/Angular/app/home/home.component.ts",
+		"/Users/cherry/Documents/Projekty/Angular/app/app.component.js",
+		"/Users/cherry/Documents/Projekty/Angular/index.html",
+		"/Users/cherry/Documents/Projekty/Angular/app/main.ts",
+		"/Users/cherry/Library/Application Support/Sublime Text 3/Packages/User/TypeScript.sublime-settings",
+		"/Users/cherry/Downloads/[DownSub.com] Mr Freeman, part 0 - napisy PL.srt",
+		"/Users/cherry/Documents/Projekty/Angular/tsconfig.json",
+		"/Users/cherry/Documents/Projekty/Angular/typings.json",
+		"/Users/cherry/Documents/Projekty/Angular/app/main.js",
+		"/Users/cherry/Documents/wizzair_spider.py",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/templates/email_html.mako",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/views.py",
+		"/Users/cherry/Documents/USA 2 (1).kml",
+		"/Users/cherry/Documents/Blue Ridge Parkway.kml",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/bot/bot.js",
+		"/Users/cherry/Documents/USA.kml",
+		"/Users/cherry/Documents/USA.kmz",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/schema/schema.py",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/website/website/models.py",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/templates/home.mako",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/templates/base.mako",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/home.sass",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/common.sass",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/vendor/materialize/_navbar.scss",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/vendor/materialize/_variables.scss",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/32864519-880d-4899-aad6-8f1ddf7da9aa/etc/dqswebservice/dqswebservice/grunt/sass/_variables.scss",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/srv/Wadim/website/website/scripts/steam.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\", \"",
+			"\"\\]",
+			"\\[\"",
+			"codename': \"(.*?)\"",
+			"\"stack\"",
+			"\"description\"",
+			"\"languages\"",
+			"\"codename\"",
+			"\"code\"",
+			"\"name\"",
+			"COffe",
+			"Directive",
+			": 2",
+			": 3",
+			": 4",
+			": 5",
+			"6",
+			"/**",
+			"'",
+			"\\[",
+			"[",
+			"CrisisCenterComponent",
+			"powi",
+			"just",
+			"flight-fare--active",
+			"flight-fare",
+			"55",
+			"zł",
+			"(.*?):(.*?)\\n",
+			"(.*?)(\\d+\\.\\d+)",
+			"(.*)(\\d+/.\\d+)",
+			"(.*)(\\d+\\.\\d+)",
+			"(.*)(\\d+)\\.(\\d+)",
+			"(.*?)(/d+)\\.(/d+)",
+			"print",
+			"Folde",
+			"height:",
+			"line-he",
+			"64px",
+			"\"",
+			"exa",
+			"exa\\",
+			"examples",
+			"index",
+			"about",
+			".index",
+			"todoApp",
+			"    ",
+			"or",
+			"p {",
+			"header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"', '",
+			"' ]",
+			"[ '",
+			"codename': '$1'",
+			"'stack'",
+			"'description'",
+			"'languages'",
+			"'codename'",
+			"'name'",
+			": D",
+			": C",
+			": B",
+			": A",
+			"A+",
+			"'$1': '$2'\n",
+			"'$1': '$2'",
+			"$1 $2",
+			".home",
+			"wadim-website",
+			"  "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "datasources.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gul",
+				"Gulpfile.js"
+			],
+			[
+				"index.",
+				"app/templates/index.html"
+			],
+			[
+				"edu.html",
+				"app/templates/education.html"
+			],
+			[
+				"educ.sass",
+				"app/sass/education.sass"
+			],
+			[
+				"educa.html",
+				"app/templates/education.html"
+			],
+			[
+				"educa.sass",
+				"app/sass/education.sass"
+			],
+			[
+				"educ",
+				"app/templates/education.html"
+			],
+			[
+				"expe",
+				"app/templates/experience.html"
+			],
+			[
+				"education.s",
+				"app/sass/education.sass"
+			],
+			[
+				"educa",
+				"app/templates/education.html"
+			],
+			[
+				"edu",
+				"app/templates/education.html"
+			],
+			[
+				"education",
+				"app/sass/education.sass"
+			],
+			[
+				"ed",
+				"app/templates/education.html"
+			],
+			[
+				"defaul.",
+				"app/sass/default.sass"
+			],
+			[
+				"ocen",
+				"~/Documents/Oceny.txt"
+			],
+			[
+				"schools",
+				"app/data/schools.ts"
+			],
+			[
+				"oce",
+				"~/Documents/Oceny.txt"
+			],
+			[
+				"experience.h",
+				"app/templates/experience.html"
+			],
+			[
+				"index.h",
+				"index.html"
+			],
+			[
+				"default.sass",
+				"app/sass/default.sass"
+			],
+			[
+				"default.s",
+				"node_modules/lodash/object/defaults.js"
+			],
+			[
+				"app.sass",
+				"~/Documents/Projekty/Chronow.ski/app/sass/app.sass"
+			],
+			[
+				"",
+				"Gulpfile.js"
+			],
+			[
+				"index.ts",
+				"app/controllers/index.ts"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"main",
+				"app/main.js"
+			],
+			[
+				"app.c",
+				"app/app.component.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Projekty/s.de-prices/s.de-prices.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
