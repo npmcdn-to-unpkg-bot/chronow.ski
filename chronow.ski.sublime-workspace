@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"cert",
+				"certificates	(education.html)"
+			],
+			[
+				"Certifi",
+				"Certificate"
+			],
+			[
+				"Certif",
+				"Certificate	(certificate.ts)"
+			],
+			[
+				"techn",
+				"technical_subjects	(schools.ts)"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"acti",
+				"active_language"
+			],
+			[
+				"projects",
+				"projectsfilter	(experience.html)"
+			],
+			[
+				"Langauge",
+				"LanguageFilterPipe	alias"
+			],
+			[
+				"Injec",
+				"Injectable	var"
+			],
+			[
+				"use",
+				"useAsDefault	property"
+			],
+			[
+				"social",
+				"sociallinks	(sociallinks.ts)"
+			],
+			[
+				"SocialLink",
+				"SocialLinksService	(sociallinks.ts)"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"IndexComp",
+				"IndexComponent"
+			],
+			[
 				"departures",
 				"departures"
 			],
@@ -16,10 +72,250 @@
 	"buffers":
 	[
 		{
-			"file": "tsconfig.json",
+			"file": "app/controllers/experience.ts",
 			"settings":
 			{
-				"buffer_size": 342,
+				"buffer_size": 1523,
+				"line_ending": "Unix",
+				"name": "import {Component} from 'angular2/core';"
+			}
+		},
+		{
+			"file": "app/data/projects.ts",
+			"settings":
+			{
+				"buffer_size": 5972,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/data/sociallinks.ts",
+			"settings":
+			{
+				"buffer_size": 822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/data/schools.ts",
+			"settings":
+			{
+				"buffer_size": 4573,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/education.js",
+			"settings":
+			{
+				"buffer_size": 2126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/interfaces/project.ts",
+			"settings":
+			{
+				"buffer_size": 129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/animations.sass",
+			"settings":
+			{
+				"buffer_size": 812,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/education.ts",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/data/certificates.js",
+			"settings":
+			{
+				"buffer_size": 1725,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/interfaces/school.ts",
+			"settings":
+			{
+				"buffer_size": 754,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/education.html",
+			"settings":
+			{
+				"buffer_size": 1989,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/interfaces/certificate.ts",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/data/certificates.ts",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/experience.html",
+			"settings":
+			{
+				"buffer_size": 2102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/app.ts",
+			"settings":
+			{
+				"buffer_size": 842,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/index.ts",
+			"settings":
+			{
+				"buffer_size": 338,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/app.sass",
+			"settings":
+			{
+				"buffer_size": 1217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html>\n  <head>\n    <base href=\"/\"></base>\n    <title>Chronow.ski</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"stylesheet\" href=\"/assets/app.min.css\" type=\"text/css\">\n    <link rel=\"shortcut icon\" href=\"/assets/favicon.ico\">\n    <link type=\"text/plain\" rel=\"author\" href=\"/humans.txt\" />\n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Montserrat\" type=\"text/css\">\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\">\n\n    <!-- Polyfills, in this exact order -->\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.js\"></script>\n    <script src=\"https://code.angularjs.org/tools/system-polyfills.js\"></script>\n    <script src=\"https://npmcdn.com/angular2@2.0.0-beta.7/es6/dev/src/testing/shims_for_IE.js\"></script>   \n\n    <script src=\"https://code.angularjs.org/tools/system.js\"></script>\n    <script src=\"https://code.angularjs.org/2.0.0-beta.7/angular2-polyfills.min.js\"></script>\n    <script src=\"https://code.angularjs.org/2.0.0-beta.7/Rx.min.js\"></script>\n    <script src=\"https://code.angularjs.org/2.0.0-beta.7/angular2.dev.js\"></script>\n    <script src=\"https://code.angularjs.org/2.0.0-beta.7/router.dev.js\"></script>\n\n    <script>\n      System.config({\n        packages: {        \n          app: {\n            format: 'register',\n            defaultExtension: 'js'\n          }\n        }\n      });\n      System.import('app/main')\n            .then(null, console.error.bind(console));\n    </script>\n  </head>\n  <body>\n    <app><i class=\"fa fa-fw fa-spin fa-circle-o-notch\" style=\"position: absolute; top: 30%; left: 50%; margin-left: -0.642857145em\"></i></app>\n  </body>\n</html>",
+			"file": "index.html",
+			"file_size": 1750,
+			"file_write_time": 131018380560000000,
+			"settings":
+			{
+				"buffer_size": 1750,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bs-config.json",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 865,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chronow.ski.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/angular2/bundles/angular2.min.js",
+			"settings":
+			{
+				"buffer_size": 574649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/experience.sass",
+			"settings":
+			{
+				"buffer_size": 973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/education.sass",
+			"settings":
+			{
+				"buffer_size": 628,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/footer.html",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "JMI01 przygotowanie stanowiska komputerowego: C\nJMI02 instalowanie, konfigurowanie i zarządzanie systemem operacyjnym Windows: C\nJMI03 instalowanie, konfigurowanie i zarządzanie systemem operacyjnym Linux: A\nJMI04 instalowanie i konfigurowanie urządzeń peryferyjnych komputera: B\nJMI05 eksploatowanie i konserwowanie urządzeń peryferyjnych: C\nJMI06 przygotowanie stanowiska do montażu i naprawy komputera: B\nJMI07 diagnostyka i naprawa uszkodzeń sprzętowych podzespołów komputera: B\nJMI08 lokalizowanie i usuwanie usterek systemu operacyjnego i aplikacji: B\nJMI09 projektowanie sieci LAN: B\nJMI10 instalowanie sieci LAN: C\nJMI11 routing w sieciach komputerowych: B\nJMI12 konfigurowanie przełączników i wirtualnych sieci LAN: B\nJMI13 konfigurowanie urządzeń firewall i VoIP oraz dostępu do sieci WAN: B\nJMI14 wdrożenie systemów rodziny Windows Server: A\nJMI15 zarządzanie systemem Windows Server: B\nJMI16 zaawansowane zarządzanie systemem operacyjnym Linux: A\nJMI17 tworzenie stron internetowych: A\nJMI18 przygotowanie dźwięku, obrazu i obrazu wideo do publikacji w Internecie: A\nJMI19 wykonywanie projektu graficznego witryny internetowej: A\nJMI20 projektowanie i wykonywanie oraz walidacja stron internetowych: A\nJMI21 projektowanie baz danych w środowisku MS Access: A\nJMI22 programowanie i projektowanie baz danych na serwerze MS SQL Server: A\nJMI23 administrowanie bazami danych: A\nJMI24 programowanie w środowisku C++: B\nJMI25 programowanie aplikacji w środowisku PHP: A\nJMI26 tworzenie aplikacji internetowych PHP+ AJAX: B\nJMI27 programowanie w środowisku JAVA: A+\nJMI28 tworzenie zaawansowanych aplikacji internetowych: A+\nJMI29 przestrzeganie przepisów bezpieczeństwa i higieny pracy: C\nJMI30 prowadzenie działalności gospodarczej w branży informatycznej: B\n\n351203 E12 M01 przygotowanie stanowiska komputerowego do pracy: C\n351203 E12 M02 użytkowanie urządzeń peryferyjnych komputera osobistego: B\n351203 E12 M03 naprawianie komputera osobistego: B\n351203 E13 M04 projektowanie i instalowanie sieci LAN: B\n351203 E13 M05 konfigurowanie urządzeń sieciowych: B\n351203 E13 M06 administrowanie sieciowymi systemami operacyjnymi: A\n351203 E14 M07 tworzenie stron www: A\n351203 E14 M08 tworzenie baz danych i administrowanie bazami: A\n351203 E14 M09 tworzenie aplikacji internetowych: B\n351203 M13 praktyka zawodowa: A+\n351203 EWZ M10 bezpieczeństwo i higiena pracy: C\n351203 EWZ M11 podejmowanie i prowadzenie działalności gospodarczej: B\n\n\n\n{ 'name': \"Conduct\", 'grade': new Grade(4) },\n{ 'name': \"Religion\", 'grade': new Grade(4) },\n{ 'name': \"Polish\", 'grade': new Grade(3) },\n{ 'name': \"English\", 'grade': new Grade(3) },\n{ 'name': \"German\", 'grade': new Grade(2) },\n{ 'name': \"History and Civics\", 'grade': new Grade(4) },\n{ 'name': \"History\", 'grade': new Grade(4) },\n{ 'name': \"Civics\", 'grade': new Grade(4) },\n{ 'name': \"Culture\", 'grade': new Grade(5) },\n{ 'name': \"Math\", 'grade': new Grade(2) },\n{ 'name': \"Physics\", 'grade': new Grade(2) },\n{ 'name': \"Geography\", 'grade': new Grade(4) },\n{ 'name': \"Biology\", 'grade': new Grade(3) },\n{ 'name': \"Chemistry\", 'grade': new Grade(4) },\n{ 'name': \"ICT\", 'grade': new Grade(4) },\n{ 'name': \"Physical Education\", 'grade': new Grade(5) },\n{ 'name': \"Safety Education\", 'grade': new Grade(3) },\n\nBiologia: C\nChemia: B\nEdukacja dla bezpieczeństwa: C\nFizyka: \nGeografia: B\nHistoria: B\nHistoria i społeczeństwo: B\nInformatyka: B\nJęzyk angielski:\nJęzyk niemiecki: D\nJęzyk polski:\nMatematyka:\nReligia: B\nWiedza o kulturze: A\nWiedza o społeczeństwie: B\nWychowanie fizyczne: A",
+			"file": "/Users/cherry/Documents/Oceny.txt",
+			"file_size": 2765,
+			"file_write_time": 131016523980000000,
+			"settings":
+			{
+				"buffer_size": 3528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/interfaces/sociallink.js",
+			"settings":
+			{
+				"buffer_size": 242,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/sidebar.sass",
+			"settings":
+			{
+				"buffer_size": 1190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/default.sass",
+			"settings":
+			{
+				"buffer_size": 1892,
 				"line_ending": "Unix"
 			}
 		}
@@ -31,13 +327,41 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 87.0,
-		"last_filter": "install",
+		"height": 127.0,
+		"last_filter": "lower",
 		"selected_items":
 		[
 			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"ss sass",
+				"Set Syntax: Sass"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"colorp",
+				"Color Picker"
 			],
 			[
 				"insta",
@@ -84,7 +408,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -103,9 +427,73 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/cherry/Documents/Projekty/Chronow.ski"
+	],
 	"file_history":
 	[
+		"/Users/cherry/Documents/Projekty/Chronow.ski/node_modules/systemjs/dist/system-polyfills.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/node_modules/angular2/bundles/angular2-polyfills.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/index.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/main.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/app.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/travel.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/travel.html",
+		"/Users/cherry/Downloads/[DownSub.com] Mr. Freeman, part 32 [Napisy.pl].srt",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/sidebar.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/pipes/languagefilter.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/pipes/projectfilter.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/interfaces/project.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/data/sociallinks.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/sidebar.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/index.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/app.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/templates/footer.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/default.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/app.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/index.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/experience.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/index.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/app.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/sidebar.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/services/sociallinks.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/data/projects.ts",
+		"/Users/cherry/Documents/Oceny.txt",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/footer.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/index.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/typings.json",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/Gulpfile.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/package.json",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/humans.txt",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/controllers/footer.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/data/sociallinks.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/interfaces/sociallink.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/assets/i18n/en.json",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/map.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/node_modules/lodash/object/defaults.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/vendor/_variables.scss",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/vendor/style.scss",
+		"/Users/cherry/Downloads/gridle-2.0.44/js/gridle.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/sass/vendor/tests.scss",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/.gitignore",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app.min.css",
+		"/Users/cherry/Desktop/IMG_4899.jpg",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/usr/share/nginx/chronowski/index.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/css/app.css",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/css/app.sass",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/index/index.html",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/index/index.ts",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/usr/share/nginx/chronowski/css/custom.css",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/usr/share/nginx/chronowski/Gruntfile.js",
+		"/private/var/folders/1g/jfmk18zn11gfbw4gyl_0jdw40000gn/T/7017cc56-e685-42e8-82fc-e49b1a51dcf0/usr/share/nginx/chronowski/css/app.css",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/LICENSE",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/components/index.ts",
+		"/Users/cherry/.shuttle.json",
 		"/Users/cherry/Documents/Projekty/Chronow.ski/tsconfig.json",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/index.ts",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/app.component.js",
+		"/Users/cherry/Documents/Projekty/Chronow.ski/app/components/index.html",
 		"/Users/cherry/Documents/Projekty/s.de-prices/index.ts",
 		"/Users/cherry/Documents/Projekty/s.de-prices/package.json",
 		"/Users/cherry/Downloads/meinfernbus_spider.py",
@@ -171,7 +559,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -186,6 +574,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\", \"",
+			"\"\\]",
+			"\\[\"",
+			"codename': \"(.*?)\"",
+			"\"stack\"",
+			"\"description\"",
+			"\"languages\"",
+			"\"codename\"",
+			"\"code\"",
+			"\"name\"",
+			"COffe",
+			"Directive",
+			": 2",
+			": 3",
+			": 4",
+			": 5",
+			"6",
+			"/**",
+			"'",
 			"\\[",
 			"[",
 			"CrisisCenterComponent",
@@ -225,6 +632,20 @@
 		"regex": true,
 		"replace_history":
 		[
+			"', '",
+			"' ]",
+			"[ '",
+			"codename': '$1'",
+			"'stack'",
+			"'description'",
+			"'languages'",
+			"'codename'",
+			"'name'",
+			": D",
+			": C",
+			": B",
+			": A",
+			"A+",
 			"'$1': '$2'\n",
 			"'$1': '$2'",
 			"$1 $2",
@@ -234,23 +655,149 @@
 		],
 		"reverse": false,
 		"show_context": true,
-		"use_buffer2": true,
+		"use_buffer2": false,
 		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 21,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tsconfig.json",
+					"file": "app/controllers/experience.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 342,
+						"buffer_size": 1523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								418
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import {Component} from 'angular2/core';",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/data/projects.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/data/sociallinks.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								762,
+								762
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 9.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/data/schools.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3851,
+								3851
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1119.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/education.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2126,
 						"regions":
 						{
 						},
@@ -263,15 +810,761 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/interfaces/project.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/sass/animations.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 61.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/controllers/education.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/data/certificates.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/interfaces/school.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								695,
+								695
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/templates/education.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Mako/Syntaxes/HTML (Mako).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/interfaces/certificate.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/data/certificates.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/templates/experience.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1222,
+								1222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Mako/Syntaxes/HTML (Mako).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/controllers/app.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								40
+							],
+							[
+								481,
+								412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/controllers/index.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/sass/app.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1195,
+								1195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								866,
+								866
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Mako/Syntaxes/HTML (Mako).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 111.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "bs-config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								551,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "Gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								598,
+								598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 93.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "chronow.ski.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "node_modules/angular2/bundles/angular2.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "app/sass/experience.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "app/sass/education.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "app/templates/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Mako/Syntaxes/HTML (Mako).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/Users/cherry/Documents/Oceny.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3253,
+								2445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 606.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "app/interfaces/sociallink.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "app/sass/sidebar.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								846,
+								846
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "app/sass/default.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1828,
+								1828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1299.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -320,7 +1613,7 @@
 	"project": "chronow.ski.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -330,12 +1623,104 @@
 		"selected_items":
 		[
 			[
-				"packa",
-				"package.json"
+				"gul",
+				"Gulpfile.js"
 			],
 			[
 				"index.",
+				"app/templates/index.html"
+			],
+			[
+				"edu.html",
+				"app/templates/education.html"
+			],
+			[
+				"educ.sass",
+				"app/sass/education.sass"
+			],
+			[
+				"educa.html",
+				"app/templates/education.html"
+			],
+			[
+				"educa.sass",
+				"app/sass/education.sass"
+			],
+			[
+				"educ",
+				"app/templates/education.html"
+			],
+			[
+				"expe",
+				"app/templates/experience.html"
+			],
+			[
+				"education.s",
+				"app/sass/education.sass"
+			],
+			[
+				"educa",
+				"app/templates/education.html"
+			],
+			[
+				"edu",
+				"app/templates/education.html"
+			],
+			[
+				"education",
+				"app/sass/education.sass"
+			],
+			[
+				"ed",
+				"app/templates/education.html"
+			],
+			[
+				"defaul.",
+				"app/sass/default.sass"
+			],
+			[
+				"ocen",
+				"~/Documents/Oceny.txt"
+			],
+			[
+				"schools",
+				"app/data/schools.ts"
+			],
+			[
+				"oce",
+				"~/Documents/Oceny.txt"
+			],
+			[
+				"experience.h",
+				"app/templates/experience.html"
+			],
+			[
+				"index.h",
 				"index.html"
+			],
+			[
+				"default.sass",
+				"app/sass/default.sass"
+			],
+			[
+				"default.s",
+				"node_modules/lodash/object/defaults.js"
+			],
+			[
+				"app.sass",
+				"~/Documents/Projekty/Chronow.ski/app/sass/app.sass"
+			],
+			[
+				"",
+				"Gulpfile.js"
+			],
+			[
+				"index.ts",
+				"app/controllers/index.ts"
+			],
+			[
+				"packa",
+				"package.json"
 			],
 			[
 				"main",
@@ -378,7 +1763,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 226.0,
+	"side_bar_width": 239.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
