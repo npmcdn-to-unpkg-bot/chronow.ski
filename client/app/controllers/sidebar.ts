@@ -2,7 +2,6 @@ import {Component} from 'angular2/core';
 import {Http, HTTP_PROVIDERS} from 'angular2/http';
 
 import {SocialLink} from '../interfaces/sociallink';
-import {SocialLinksService} from '../services/sociallinks';
 
 @Component({
   selector: 'app-sidebar',
