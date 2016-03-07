@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "sociallink": 4
+  },
+  "models": {
+    "sociallink": {
+      "3": "{\"name\":\"Facebook\",\"icon\":\"facebook-square\",\"url\":\"https://facebook.com/kuba77\",\"id\":3}"
+    }
+  }
+}
