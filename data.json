@@ -1,7 +1,8 @@
 {
   "ids": {
     "sociallink": 11,
-    "project": 7
+    "project": 7,
+    "certificate": 7
   },
   "models": {
     "sociallink": {
@@ -23,6 +24,14 @@
       "4": "{\"name\":\"ETF2L\",\"codename\":\"etf2l\",\"description\":\"<p>As a Site Coder at <a href=\\\"http://etf2l.org\\\">ETF2L</a> I was responsible for major redesign of the website. Besides creating a new modern WordPress theme that fit the league’s feel I designed and coded templates for many of the custom pages including leaderboards, brackets, player profiles, team profiles and many others. It was a good experience with PHP and WordPress, but it was also a somewhat daunting task when I also had to focus on school and Saloon.tf and eventually someone else took over. The theme was when I was leaving and still is in a preview state despite lacking just a few final touches.</p>\",\"languages\":[\"PHP\",\"HTML\",\"JavaScript\",\"Less\",\"CSS\"],\"stack\":[\"Nginx\",\"HHVM\",\"WordPress\",\"Roots.io\",\"Socket.IO\",\"Grunt\",\"jQuery\",\"Bootstrap\"],\"background_color\":\"#1F2938\",\"foreground_color\":\"#EEE\",\"label_class\":\"darken\",\"id\":4}",
       "5": "{\"name\":\"TF2Center\",\"codename\":\"tf2center\",\"description\":\"<p>I created a Steam bot in Java from ground up to accept voluntary donations for <a href=\\\"http://tf2center.com\\\">TF2Center.com</a> website. Reading Steam website’s source code and reverse engineering allowed me to create Steam bot for accepting item donations for TF2Center.com similar to the one used by Saloon.tf, just with less functionality. It was able to emulate a web browser, saving sentry files, log in with SteamGuard code, gather received offers and filter, accept those that contained valuable items declining others and return a list of users who were eligible to receive complimentary status on the website.</p>\",\"languages\":[\"Java\"],\"stack\":[\"Mechanize\",\"Maven\",\"Steam\"],\"background_color\":\"#EBE6D6\",\"foreground_color\":\"#000\",\"label_class\":\"lighten\",\"id\":5}",
       "6": "{\"name\":\"Tryhard Brigade\",\"codename\":\"tryhard\",\"description\":\"<p>As <a href=\\\"https://tryhardbrigade.com\\\">TryhardBrigade.com</a> we provided top notch training servers with variety of mods that let players practice competitive TF2 gameplay for almost four years.</p><p>I could have never expected such a success when Mateusz first approached me. We made a two-men strong team where he was responsible for PR and SRCDS configuration while I worked on Linux server configuration, website, donation bot, supervisor application, and communication with English speaking community. From servers used by me and my friends we grew to become the biggest network of its kind in Europe. Our main server was full 22 hours a day during our best times and hosted many of the best European players for more than ten ETF2L seasons.</p>\",\"languages\":[\"Python\",\"C#\",\"PHP\",\"SourcePawn\",\"HTML\",\"JavaScript\",\"CSS\"],\"stack\":[\"Linux\",\"Apache2\",\"SRCDS\",\"SteamBot\",\"Steam\",\"Smarty\",\"SourceMod\",\"Bootstrap\"],\"background_color\":\"#222\",\"foreground_color\":\"#EEE\",\"label_class\":\"darken\",\"id\":6}"
+    },
+    "certificate": {
+      "1": "{\"name\":\"6.00.1x, Introduction to Computer Science and Programming Using Python\",\"institution\":\"MITx\",\"url\":\"https://verify.edx.org/cert/b23409db653744e38f4f8a6950bdbdfc\",\"id\":1}",
+      "2": "{\"name\":\"SUSE Linux Enterprise 11 Fundamentals\",\"institution\":\"OEDU\",\"url\":\"\",\"id\":2}",
+      "3": "{\"name\":\"CCNA Exploration: Accessing the WAN\",\"institution\":\"Zespół Szkół Licealnych i Technicznych Nr 1 w Warszawie\",\"url\":\"\",\"id\":3}",
+      "4": "{\"name\":\"CCNA Exploration: Routing Protocols and Concepts\",\"institution\":\"Zespół Szkół Licealnych i Technicznych Nr 1 w Warszawie\",\"url\":\"\",\"id\":4}",
+      "5": "{\"name\":\"CCNA Exploration: LAN Switching and Wireless\",\"institution\":\"Zespół Szkół Licealnych i Technicznych Nr 1 w Warszawie\",\"url\":\"\",\"id\":5}",
+      "6": "{\"name\":\"CCNA Exploration: Network Fundamentals\",\"institution\":\"Zespół Szkół Licealnych i Technicznych Nr 1 w Warszawie\",\"url\":\"\",\"id\":6}"
     }
   }
 }

@@ -16,5 +16,13 @@
   "sociallink": {
     "dataSource": "db",
     "public": true
+  },
+  "project": {
+    "dataSource": "db",
+    "public": true
+  },
+  "certificate": {
+    "dataSource": "db",
+    "public": true
   }
 }
