@@ -1,4 +1,4 @@
-System.register(['../data/projects', 'angular2/core'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/http'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,40 +10,43 @@ System.register(['../data/projects', 'angular2/core'], function(exports_1, conte
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var projects_1, core_1;
+    var core_1, http_1;
     var ExperienceComponent;
     return {
         setters:[
-            function (projects_1_1) {
-                projects_1 = projects_1_1;
-            },
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (http_1_1) {
+                http_1 = http_1_1;
             }],
         execute: function() {
             ExperienceComponent = (function () {
-                function ExperienceComponent() {
+                function ExperienceComponent(http) {
+                    var _this = this;
                     this.page = 'Experience';
                     this.active_language = '';
                     this.active_technology = '';
                     this.languages = [];
                     this.stack = [];
-                    this.projects = projects_1.PROJECTS;
-                    for (var _i = 0, _a = this.projects; _i < _a.length; _i++) {
-                        var project = _a[_i];
-                        for (var _b = 0, _c = project.languages; _b < _c.length; _b++) {
-                            var language = _c[_b];
-                            if (this.languages.indexOf(language) == -1) {
-                                this.languages.push(language);
+                    http.get('/api/projects/').subscribe(function (projects) {
+                        _this.projects = projects.json();
+                        for (var _i = 0, _a = _this.projects; _i < _a.length; _i++) {
+                            var project = _a[_i];
+                            for (var _b = 0, _c = project.languages; _b < _c.length; _b++) {
+                                var language = _c[_b];
+                                if (_this.languages.indexOf(language) == -1) {
+                                    _this.languages.push(language);
+                                }
+                            }
+                            for (var _d = 0, _e = project.stack; _d < _e.length; _d++) {
+                                var technology = _e[_d];
+                                if (_this.stack.indexOf(technology) == -1) {
+                                    _this.stack.push(technology);
+                                }
                             }
                         }
-                        for (var _d = 0, _e = project.stack; _d < _e.length; _d++) {
-                            var technology = _e[_d];
-                            if (this.stack.indexOf(technology) == -1) {
-                                this.stack.push(technology);
-                            }
-                        }
-                    }
+                    });
                 }
                 ExperienceComponent.prototype.applyFilter = function ($event, language, technology) {
                     $event.preventDefault();
@@ -70,9 +73,10 @@ System.register(['../data/projects', 'angular2/core'], function(exports_1, conte
                 };
                 ExperienceComponent = __decorate([
                     core_1.Component({
-                        templateUrl: '/app/templates/experience.html'
+                        templateUrl: '/app/templates/experience.html',
+                        providers: [http_1.HTTP_PROVIDERS]
                     }), 
-                    __metadata('design:paramtypes', [])
+                    __metadata('design:paramtypes', [http_1.Http])
                 ], ExperienceComponent);
                 return ExperienceComponent;
             }());

@@ -23,7 +23,9 @@
     </div>
 
     <div *ngFor="#project of projects"
-         class="project-showcase project-showcase-{{project.codename}}"
+         [style.background-color]="project.background_color"
+         [style.color]="project.foreground_color"
+         class="project-showcase"
          [class.zoom-out]="!checkFilter(project)"
          [class.zoom-in]="checkFilter(project)">
         <p>
@@ -40,7 +42,7 @@
             </a>
             <a *ngFor="#language of project.languages"
                (click)="applyFilter($event, language, '')"
-               class="label"
+               class="label {{project.label_class}}"
                href>
                 {{language}}
             </a>
@@ -53,7 +55,7 @@
             </a>
             <a *ngFor="#technology of project.stack"
                (click)="applyFilter($event, '', technology)"
-               class="label"
+               class="label {{project.label_class}}"
                href>
                 {{technology}}
             </a>

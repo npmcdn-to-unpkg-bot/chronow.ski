@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var css = require('gulp-minify-css');
+var rename = require('gulp-rename');
 
 var sys = require('sys')
 var exec = require('child_process').exec;
@@ -10,7 +11,7 @@ gulp.task('sass', function() {
   gulp.src('./client/app/sass/app.sass')
     .pipe(sass().on('error', sass.logError))
     .pipe(css())
-    .pipe(concat('app.min.css'))
+    .pipe(rename("app.min.css"))
     .pipe(gulp.dest('./client/assets/'));
 });
 

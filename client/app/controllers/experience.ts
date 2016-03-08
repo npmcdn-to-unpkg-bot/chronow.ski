@@ -1,11 +1,11 @@
-import {PROJECTS} from '../data/projects';
-
 import {Component} from 'angular2/core';
+import {Http, HTTP_PROVIDERS} from 'angular2/http';
 
 import {Project} from '../interfaces/project';
 
 @Component({
-  templateUrl: '/app/templates/experience.html'
+  templateUrl: '/app/templates/experience.html',
+  providers: [HTTP_PROVIDERS]
 })
 
 export class ExperienceComponent {
@@ -15,18 +15,21 @@ export class ExperienceComponent {
   public languages: string[] = [];
   public stack: string[] = [];
 
-  projects: Project[] = PROJECTS;
+  projects: Project[];
 
-  constructor() {
-    for (var project of this.projects) {
-      for (var language of project.languages) {
-        if (this.languages.indexOf(language) == -1) { this.languages.push(language); }
-      }
+  constructor(http: Http) {
+    http.get('/api/projects/').subscribe(projects => {
+      this.projects = projects.json()
+      for (var project of this.projects) {
+        for (var language of project.languages) {
+          if (this.languages.indexOf(language) == -1) { this.languages.push(language); }
+        }
 
-      for (var technology of project.stack) {
-        if (this.stack.indexOf(technology) == -1) { this.stack.push(technology); }
+        for (var technology of project.stack) {
+          if (this.stack.indexOf(technology) == -1) { this.stack.push(technology); }
+        }
       }
-    }
+    });
   }
 
   applyFilter($event, language: string, technology: string) {

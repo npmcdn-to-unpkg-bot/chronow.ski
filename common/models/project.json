@@ -1,0 +1,51 @@
+{
+  "name": "project",
+  "plural": "projects",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "codename": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "languages": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "stack": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "background_color": {
+      "type": "string",
+      "required": true
+    },
+    "foreground_color": {
+      "type": "string",
+      "required": true
+    },
+    "label_class": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
