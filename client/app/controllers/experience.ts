@@ -21,13 +21,10 @@ export class ExperienceComponent {
     http.get('/api/projects/').subscribe(projects => {
       this.projects = projects.json()
       for (var project of this.projects) {
-        for (var language of project.languages) {
+        for (var language of project.languages)
           if (this.languages.indexOf(language) == -1) { this.languages.push(language); }
-        }
-
-        for (var technology of project.stack) {
+        for (var technology of project.stack)
           if (this.stack.indexOf(technology) == -1) { this.stack.push(technology); }
-        }
       }
     });
   }
