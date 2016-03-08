@@ -25,3 +25,15 @@ boot(app, __dirname, function(err) {
   if (require.main === module)
     app.start();
 });
+
+app.get('remoting').errorHandler = {
+  handler: function(err, req, res, defaultHandler) {
+    err = app.buildError(err);
+    defaultHandler(err);
+  },
+  disableStackTrace: true
+};
+
+app.buildError = function(err) {
+  return err;
+};
