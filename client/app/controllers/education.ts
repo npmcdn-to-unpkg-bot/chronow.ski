@@ -1,4 +1,4 @@
-import {SCHOOLS} from '../data/schools';
+import {AMERICAN_GRADES} from '../interfaces/school';
 
 import {Component} from 'angular2/core';
 import {Http, HTTP_PROVIDERS} from 'angular2/http';
@@ -13,13 +13,13 @@ import {Certificate} from '../interfaces/certificate';
 export class EducationComponent {
   public page: string = 'Education';
 
-  schools: School[] = SCHOOLS;
-
+  american_grades = AMERICAN_GRADES;
+  
+  schools: School[];
   certificates: Certificate[];
 
   constructor(http: Http) {
-    http.get('/api/certificates/').subscribe(certificates => {
-      this.certificates = certificates.json()
-    });
+    http.get('/api/certificates/').subscribe(certificates => this.certificates = certificates.json());
+    http.get('/api/schools/').subscribe(schools => this.schools = schools.json());
   }
 }

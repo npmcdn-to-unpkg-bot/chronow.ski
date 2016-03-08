@@ -1,11 +1,11 @@
 System.register([], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var POLISH_GRADES, AMERICAN_GRADES, Grade;
+    var POLISH_GRADES, AMERICAN_GRADES;
     return {
         setters:[],
         execute: function() {
-            POLISH_GRADES = {
+            exports_1("POLISH_GRADES", POLISH_GRADES = {
                 0: '',
                 1: 'niedostateczny',
                 2: 'dopuszczający',
@@ -13,8 +13,8 @@ System.register([], function(exports_1, context_1) {
                 4: 'dobry',
                 5: 'bardzo dobry',
                 6: 'celujący'
-            };
-            AMERICAN_GRADES = {
+            });
+            exports_1("AMERICAN_GRADES", AMERICAN_GRADES = {
                 0: '',
                 1: 'F',
                 2: 'D',
@@ -22,16 +22,7 @@ System.register([], function(exports_1, context_1) {
                 4: 'B',
                 5: 'A',
                 6: 'A+'
-            };
-            Grade = (function () {
-                function Grade(grade) {
-                    this.numerical = grade;
-                    this.polish = POLISH_GRADES[grade];
-                    this.american = AMERICAN_GRADES[grade];
-                }
-                return Grade;
-            }());
-            exports_1("Grade", Grade);
+            });
         }
     }
 });

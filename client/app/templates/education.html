@@ -8,7 +8,9 @@
     </ul>
     <h2>Schools</h2>
     <div *ngFor="#school of schools"
-         class="school-showcase school-showcase-{{school.codename}}">
+         [style.background-color]="school.background_color"
+         [style.color]="school.foreground_color"
+         class="school-showcase">
         <p *ngIf="school.logo">
             <img alt="{{school.name}} logo"
                  class="school-logo"
@@ -33,7 +35,7 @@
                 <tbody>
                     <tr *ngFor="#subject of school.subjects">
                         <td>{{subject.name}}</td>
-                        <td>{{subject.grade.american}}</td>
+                        <td>{{american_grades[subject.grade]}}</td>
                     </tr>
                 </tbody>
             </table>
@@ -45,7 +47,7 @@
                 <tbody>
                     <tr *ngFor="#subject of school.technical_subjects">
                         <td>{{subject.name}}</td>
-                        <td>{{subject.grade.american}}</td>
+                        <td>{{american_grades[subject.grade]}}</td>
                     </tr>
                 </tbody>
             </table>

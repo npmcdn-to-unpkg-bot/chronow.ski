@@ -1,4 +1,4 @@
-var POLISH_GRADES = {
+export var POLISH_GRADES = {
   0: '',
   1: 'niedostateczny',
   2: 'dopuszczający',
@@ -8,7 +8,7 @@ var POLISH_GRADES = {
   6: 'celujący'
 }
 
-var AMERICAN_GRADES = {
+export var AMERICAN_GRADES = {
   0: '',
   1: 'F',
   2: 'D',
@@ -18,21 +18,10 @@ var AMERICAN_GRADES = {
   6: 'A+'
 }
 
-export class Grade {
-  numerical: number;
-  polish: string;
-  american: string;
-
-  constructor(grade: number) {
-    this.numerical = grade;
-    this.polish = POLISH_GRADES[grade];
-    this.american = AMERICAN_GRADES[grade];
-  }
-}
-
 export interface Subject {
   name: string;
-  grade: Grade;
+  grade: number;
+  technical: boolean;
 }
 
 export interface Exam {
@@ -44,7 +33,9 @@ export interface School {
   name: string;
   codename: string;
   logo: boolean;
-  exams?: Exam[];
-  technical_subjects?: Subject[];
+  exams: Exam[];
   subjects: Subject[];
+  technical_subjects: Subject[];
+  background_color: string;
+  foreground_color: string;
 }

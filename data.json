@@ -2,7 +2,8 @@
   "ids": {
     "sociallink": 11,
     "project": 7,
-    "certificate": 7
+    "certificate": 7,
+    "school": 2
   },
   "models": {
     "sociallink": {
@@ -32,6 +33,11 @@
       "4": "{\"name\":\"CCNA Exploration: Routing Protocols and Concepts\",\"institution\":\"Zespół Szkół Licealnych i Technicznych Nr 1 w Warszawie\",\"url\":\"\",\"id\":4}",
       "5": "{\"name\":\"CCNA Exploration: LAN Switching and Wireless\",\"institution\":\"Zespół Szkół Licealnych i Technicznych Nr 1 w Warszawie\",\"url\":\"\",\"id\":5}",
       "6": "{\"name\":\"CCNA Exploration: Network Fundamentals\",\"institution\":\"Zespół Szkół Licealnych i Technicznych Nr 1 w Warszawie\",\"url\":\"\",\"id\":6}"
+    },
+    "school": {
+      "1": "{\"name\":\"Technical High School of Mechatronics no. 1 in Warsaw\",\"codename\":\"staff\",\"logo\":false,\"subjects\":[{\"name\":\"Conduct\",\"grade\":4},{\"name\":\"Religion\",\"grade\":4},{\"name\":\"Polish\",\"grade\":0},{\"name\":\"English\",\"grade\":0},{\"name\":\"German\",\"grade\":2},{\"name\":\"History and Civics\",\"grade\":0},{\"name\":\"History\",\"grade\":4},{\"name\":\"Civics\",\"grade\":4},{\"name\":\"Culture\",\"grade\":5},{\"name\":\"Math\",\"grade\":0},{\"name\":\"Physics\",\"grade\":0},{\"name\":\"Geography\",\"grade\":4},{\"name\":\"Biology\",\"grade\":3},{\"name\":\"Chemistry\",\"grade\":4},{\"name\":\"ICT\",\"grade\":4},{\"name\":\"Physical Education\",\"grade\":0},{\"name\":\"Safety Education\",\"grade\":3}],\"technical_subjects\":[{\"name\":\"Preparing workstation for work\",\"grade\":3},{\"name\":\"Use of PC peripherals\",\"grade\":4},{\"name\":\"Repairing personal computers\",\"grade\":4},{\"name\":\"Designing and installing of LAN networks\",\"grade\":4},{\"name\":\"Configuring networking devices\",\"grade\":4},{\"name\":\"Administrating server operating systems\",\"grade\":5},{\"name\":\"Creating websites\",\"grade\":5},{\"name\":\"Creating and administration of databases\",\"grade\":5},{\"name\":\"Creating web applications\",\"grade\":4},{\"name\":\"EHS\",\"grade\":3},{\"name\":\"Business\",\"grade\":5},{\"name\":\"Internship\",\"grade\":6}],\"background_color\":\"#333\",\"foreground_color\":\"#EEE\",\"id\":1}",
+      "2": "{\"name\":\"Community Middle School no. 40 in Warsaw\",\"codename\":\"stryjenskich\",\"logo\":true,\"exams\":[{\"name\":\"Polish\",\"score\":88},{\"name\":\"History and Civics\",\"score\":85},{\"name\":\"Math\",\"score\":93},{\"name\":\"Science\",\"score\":77},{\"name\":\"Basic English\",\"score\":98},{\"name\":\"Advanced English\",\"score\":93}],\"subjects\":[{\"name\":\"Conduct\",\"grade\":5},{\"name\":\"Religion\",\"grade\":5},{\"name\":\"Polish\",\"grade\":4},{\"name\":\"English\",\"grade\":4},{\"name\":\"German\",\"grade\":3},{\"name\":\"History\",\"grade\":4},{\"name\":\"Civics\",\"grade\":5},{\"name\":\"Math\",\"grade\":4},{\"name\":\"Physics\",\"grade\":4},{\"name\":\"Geography\",\"grade\":4},{\"name\":\"Biology\",\"grade\":4},{\"name\":\"Chemistry\",\"grade\":4},{\"name\":\"Science\",\"grade\":4},{\"name\":\"Music\",\"grade\":4},{\"name\":\"Visual arts\",\"grade\":5},{\"name\":\"Art\",\"grade\":6},{\"name\":\"Technology\",\"grade\":5},{\"name\":\"ICT\",\"grade\":4},{\"name\":\"Physical Education\",\"grade\":4},{\"name\":\"Safety Education\",\"grade\":3}],\"background_color\":\"#FFF\",\"foreground_color\":\"#333\",\"id\":2}",
+      "3": "{\"name\":\"Primary School no. 146 in Warsaw\",\"codename\":\"sp146\",\"logo\":true,\"exams\":[{\"name\":\"Reading\",\"score\":100},{\"name\":\"Writing\",\"score\":60},{\"name\":\"Reasoning\",\"score\":100},{\"name\":\"Use of information\",\"score\":75},{\"name\":\"Use of knowledge\",\"score\":100}],\"subjects\":[{\"name\":\"Conduct\",\"grade\":4},{\"name\":\"Religion\",\"grade\":3},{\"name\":\"Polish\",\"grade\":4},{\"name\":\"English\",\"grade\":4},{\"name\":\"French\",\"grade\":3},{\"name\":\"History\",\"grade\":4},{\"name\":\"Math\",\"grade\":6},{\"name\":\"Science\",\"grade\":4},{\"name\":\"Technology\",\"grade\":5},{\"name\":\"ICT\",\"grade\":6},{\"name\":\"Music\",\"grade\":3},{\"name\":\"Visual arts\",\"grade\":3},{\"name\":\"Physical Education\",\"grade\":5}],\"background_color\":\"#333\",\"foreground_color\":\"#EEE\",\"id\":3}"
     }
   }
 }
