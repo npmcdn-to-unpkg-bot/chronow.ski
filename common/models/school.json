@@ -1,0 +1,53 @@
+{
+  "name": "school",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "codename": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "boolean",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "subjects": {
+      "type": [
+        "subject"
+      ],
+      "required": false
+    },
+    "technical_subjects": {
+      "type": [
+        "subject"
+      ],
+      "required": false
+    },
+    "exams": {
+      "type": [
+        "exam"
+      ],
+      "required": false
+    },
+    "background_color": {
+      "type": "string",
+      "required": true
+    },
+    "foreground_color": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
