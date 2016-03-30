@@ -1,7 +1,8 @@
 <section class="education">
     <h2>Certificates</h2>
     <ul class="certificates">
-        <li *ngFor="#certificate of certificates">
+        <li *ngFor="#certificate of certificates"
+            class="slide-in-right">
             <div class="certificate-name">{{certificate.name}}</div>
             <div class="certificate-institution">{{certificate.institution}}</div>
         </li>
@@ -10,7 +11,7 @@
     <div *ngFor="#school of schools"
          [style.background-color]="school.background_color"
          [style.color]="school.foreground_color"
-         class="school-showcase">
+         class="school-showcase zoom-in">
         <p *ngIf="school.logo">
             <img alt="{{school.name}} logo"
                  class="school-logo"
