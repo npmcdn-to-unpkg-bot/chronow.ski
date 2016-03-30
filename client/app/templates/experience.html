@@ -1,5 +1,6 @@
 <section class="experience">
-    <div class="projects-filter">
+    <div class="projects-filter"
+         *ngIf="languages.length > 0">
         <i class="fa fa-code"></i>
         <select [ngModel]="active_language"
                 (change)="applyFilter($event, $event.target.value, '')">
@@ -10,7 +11,8 @@
             </option>
         </select>
     </div>
-    <div class="projects-filter">
+    <div class="projects-filter"
+         *ngIf="stack.length > 0">
         <i class="fa fa-cogs"></i>
         <select [ngModel]="active_technology"
                 (change)="applyFilter($event, '', $event.target.value)">
