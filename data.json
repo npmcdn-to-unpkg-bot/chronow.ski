@@ -9,14 +9,15 @@
     "sociallink": {
       "1": "{\"name\":\"Facebook\",\"icon\":\"facebook-square\",\"url\":\"https://facebook.com/kuba77\",\"id\":1}",
       "2": "{\"name\":\"VK\",\"icon\":\"vk\",\"url\":\"https://vk.com/chronowski\",\"id\":2}",
-      "3": "{\"name\":\"Twitter\",\"icon\":\"twitter\",\"url\":\"https://twitter.com/jakubchronowski\",\"id\":3}",
-      "4": "{\"name\":\"Instagram\",\"icon\":\"instagram\",\"url\":\"https://instagram.com/19kuba22\",\"id\":4}",
-      "5": "{\"name\":\"LinkedIn\",\"icon\":\"linkedin\",\"url\":\"https://linkedin.com/pub/jakub-chronowski/109/80a/810\",\"id\":5}",
-      "6": "{\"name\":\"GitHub\",\"icon\":\"github\",\"url\":\"https://github.com/Kuba77\",\"id\":6}",
-      "7": "{\"name\":\"CouchSurfing\",\"icon\":\"compass\",\"url\":\"https://www.couchsurfing.com/users/2000484233\",\"id\":7}",
-      "8": "{\"name\":\"Bandcamp\",\"icon\":\"headphones\",\"url\":\"https://bandcamp.com/CherryABC\",\"id\":8}",
-      "9": "{\"name\":\"SoundCloud\",\"icon\":\"soundcloud\",\"url\":\"https://soundcloud.com/kuba-chronowski-1/likes\",\"id\":9}",
-      "10": "{\"name\":\"Steam\",\"icon\":\"steam-square\",\"url\":\"https://steamcommunity.com/id/123Coke\",\"id\":10}"
+      "3": "{\"name\":\"Tumblr\",\"icon\":\"tumblr\",\"url\":\"https://kubablog.tumblr.com\",\"id\":3}",
+      "4": "{\"name\":\"Twitter\",\"icon\":\"twitter\",\"url\":\"https://twitter.com/jakubchronowski\",\"id\":4}",
+      "5": "{\"name\":\"Instagram\",\"icon\":\"instagram\",\"url\":\"https://instagram.com/19kuba22\",\"id\":5}",
+      "6": "{\"name\":\"LinkedIn\",\"icon\":\"linkedin\",\"url\":\"https://linkedin.com/pub/jakub-chronowski/109/80a/810\",\"id\":6}",
+      "7": "{\"name\":\"GitHub\",\"icon\":\"github\",\"url\":\"https://github.com/Kuba77\",\"id\":7}",
+      "8": "{\"name\":\"CouchSurfing\",\"icon\":\"compass\",\"url\":\"https://www.couchsurfing.com/users/2000484233\",\"id\":8}",
+      "9": "{\"name\":\"Bandcamp\",\"icon\":\"headphones\",\"url\":\"https://bandcamp.com/CherryABC\",\"id\":9}",
+      "10": "{\"name\":\"SoundCloud\",\"icon\":\"soundcloud\",\"url\":\"https://soundcloud.com/kuba-chronowski-1/likes\",\"id\":10}",
+      "11": "{\"name\":\"Steam\",\"icon\":\"steam-square\",\"url\":\"https://steamcommunity.com/id/123Coke\",\"id\":11}"
     },
     "project": {
       "1": "{\"name\":\"Saloon.tf\",\"codename\":\"saloon\",\"description\":\"<p>I was a founder and lead developer of <a href=\\\"https://saloon.tf\\\">Saloon.tf</a>, a parimutuel betting platform, where users would place in game items as bets on competitive TF2 matches.</p><p>I started the project in spring 2014 as a hobby when I was working on a Steam bot in Python, but I quickly found myself managing a popular community project with 20 team members as it provided a service users wanted filling a nice niche. When Saloon was acquired in September 2015, it has distributed over seventy thousands of dollars worth of in game items as prizes. It was a massive learning experience in software development, but I also somewhat unexpectedly learned how to manage a team and work with a large distributed group of likeminded people from all across the world.</p>\",\"languages\":[\"Python\",\"HTML\",\"CoffeeScript\",\"JavaScript\",\"Sass\",\"CSS\",\"SQL\"],\"stack\":[\"Linux\",\"Nginx\",\"Pyramid\",\"Mako\",\"Steam\",\"Twisted\",\"PostgreSQL\",\"SQLAlchemy\",\"twistar\",\"Autobahn.ws\",\"WebSockets\",\"Grunt\",\"jQuery\",\"Bootstrap\"],\"background_color\":\"#1D1D1D\",\"foreground_color\":\"#EEE\",\"label_class\":\"lighten\",\"id\":1}",
